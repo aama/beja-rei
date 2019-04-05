@@ -1,0 +1,2551 @@
+{
+ :lang :beja-rei
+ :subfamily "Beja"
+ :sgpref "bre"
+ :datasource "Reinisch1893; section references abbreviated in :note as RE#"
+ :datasourceNotes "Reinisch uses the terms 'perfect' and 'plusquamperfect' for what are here termed 'Past' and 'Aorist'"
+ :geodemoURL "http://www.ethnologue.com/language/bej"
+ :geodemoTXT "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. One of the Southern-most representative of Beja is documented here, that of the Beni-Amer in Barka, in what is now Eritrea, studied by Leo Reinisch (1893) in what is, along with Almkvist's study of the Bishari, one of the earliest monographs dedicated to a variety of Beja."
+ :schemata {:case [:Object  :Subject],
+            :complang [:Arabic :Hebrew],
+            :conjClass [:Prefix :Suffix],
+            :conjSubType [:AuxFay :AuxHay],
+            :derivedStem [:Base :BaseIntns :CausalIntransitive :Causative :Collaborative :Cooperative :M :M1 :M2 :MS1 :MS2 :Passive :Reciprocal :Reflexive :S :S1 :S2 :SM],
+            :derivedStemAug [:Intensive :Intransitive :Simple],
+            :genHead [:H_Fem :H_Masc],
+            :gender [:Common :Fem :Masc],
+            :numHead [:H_Plural :H_Singular :Singular],
+            :number [:Plural :Plural2 :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pmorphClass [:ProMorph],
+            :polarity [:Affirmative :Negative :NegativeEmphatic],
+            :pos [:Pronoun :Verb],
+            :proClass [:Independent :IndependentPossessive :ObjectSuffix :PossCop :PossSuff],
+            :rootClass [:CC :CCC :CCY :CHC :CaC :CeC],
+            :stemClass [:C_final :V_final :_NA],
+            :tam [:Conditional :ConditionalPerfect :ConditionalPresent :Future1 :Future2 :Future2Var :Future3 :Imperative :Imperfect :Jussive :Optative :Perfect :PerfectDur :PerfectRel :Pluperfect :Present :PresentDur :PresentRel],
+            :vmorphClass [:COMPSEM :DERVSTEMAORIST :DERVSTEMCAUS :DERVSTEMCOLL :DERVSTEMPASS :DERVSTEMRECIP :DERVSTEMREFL :DERVSTEMSUFF :Finite :FiniteCompound :Finite_Partial :PrefVersusSuff :Finite_Partila]
+            } 
+ :pclass {:pngClass [:person :number :gender :genHead :numHead],
+          :synsemClass [:case :derivedStem :derivedStemAug :polarity :pos :proClass :tam],
+          :inflClass [:conjClass :conjSubType :rootClass],
+          :otherClass []}
+ :lexemes {
+           :COPULA   {:pos :Verb, :lemma "Copula", :gloss "Copula", },
+           :Had   {:pos :Verb, :lemma "sō-‘ad", :gloss "fluchen", },
+           :Hasis   {:pos :Verb, :lemma "š-‘ašiš", :gloss "entgegen gehen", },
+           :Hat   {:pos :Verb, :lemma "sō-‘at", :gloss "treten", },
+           :abab   {:pos :Verb, :lemma "abāb-is", :gloss "", },
+           :abik   {:pos :Verb, :lemma "s-‘abik", :gloss "festhalten", },
+           :adil   {:pos :Verb, :lemma "s-adil", :gloss "fridlich sein", },
+           :afid   {:pos :Verb, :lemma "š-‘afid", :gloss "niesen", },
+           :am   {:pos :Verb, :lemma "ʔām", :gloss "swell", },
+           :amit   {:pos :Verb, :lemma "amāt", :gloss "anfassen", },
+           :baden   {:pos :Verb, :lemma "mē-bdān", :gloss "vergessen", },
+           :bal   {:pos :Verb, :lemma "bal-am-s", :gloss "", },
+           :baski   {:pos :Verb, :lemma "baskī-t", :gloss "", },
+           :beHas   {:pos :Verb, :lemma "ad-be’ās", :gloss "wenden", },
+           :beHin   {:pos :Verb, :lemma "e-sí-b’in", :gloss "", },
+           :bedah   {:pos :Verb, :lemma "m-badāh", :gloss "bezeugen", },
+           :bedin   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :berir   {:pos :Verb, :lemma "berār", :gloss "ausbreiten", },
+           :beʔan   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :beʔān   {:pos :Verb, :lemma "beʔān", :gloss "fear", },
+           :bis   {:pos :Verb, :lemma "bis", :gloss "bury", },
+           :dab   {:pos :Verb, :lemma "dab-s", :gloss "", },
+           :dabar   {:pos :Verb, :lemma "m-dabār", :gloss "verarmen", },
+           :dah   {:pos :Verb, :lemma "i-dha", :gloss "", },
+           :dar   {:pos :Verb, :lemma "e-dár", :gloss "", },
+           :deHir   {:pos :Verb, :lemma "m-ded’ār", :gloss "heiraten", },
+           :debil   {:pos :Verb, :lemma "debil", :gloss "wickeln", },
+           :debir   {:pos :Verb, :lemma "debār", :gloss "", },
+           :dedir   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :delib   {:pos :Verb, :lemma "se-dalib", :gloss "kaufen", },
+           :derir   {:pos :Verb, :lemma "derār #215", :gloss "", },
+           :di   {:pos :Verb, :lemma "", :gloss "say", },
+           :dib   {:pos :Verb, :lemma "didib-s", :gloss "", },
+           :dif   {:pos :Verb, :lemma "šō-dif", :gloss "farben", },
+           :dih   {:pos :Verb, :lemma "e-sú-dih", :gloss "", },
+           :dir   {:pos :Verb, :lemma "dir", :gloss "kill", },
+           :dur   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :dāh   {:pos :Verb, :lemma "dāh", :gloss "be small", },
+           :dūr   {:pos :Verb, :lemma "dūr", :gloss "visit", },
+           :fay   {:pos :Verb, :lemma "fāy", :gloss "be (Aux)", },
+           :fayd   {:pos :Verb, :lemma "m-fefyād", :gloss "lachen", },
+           :fāyd   {:pos :Verb, :lemma "mē-fyād", :gloss "lachen", },
+           :fedig   {:pos :Verb, :lemma "fedig", :gloss "release", },
+           :felaH   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :fenin   {:pos :Verb, :lemma "fenān", :gloss "stricken", },
+           :feraH   {:pos :Verb, :lemma "ferā’", :gloss "", },
+           :ferik   {:pos :Verb, :lemma "at-ferak̄ ~ ferāk", :gloss "graben", },
+           :feyak   {:pos :Verb, :lemma "feyāk", :gloss "", },
+           :gas   {:pos :Verb, :lemma "gas-is", :gloss "", },
+           :ged   {:pos :Verb, :lemma "i-ged", :gloss "", },
+           :gedah   {:pos :Verb, :lemma "gedāh", :gloss "", },
+           :gelad   {:pos :Verb, :lemma "m-geglād", :gloss "schworen", },
+           :gerib   {:pos :Verb, :lemma "at-garāb ~ gerāb", :gloss "sigen", },
+           :gid   {:pos :Verb, :lemma "gid", :gloss "throw", },
+           :gig   {:pos :Verb, :lemma "gīg-s-am", :gloss "", },
+           :guH   {:pos :Verb, :lemma "gugu’", :gloss "", },
+           :guaH   {:pos :Verb, :lemma "sō-gŭa’", :gloss "stossen", },
+           :guasir   {:pos :Verb, :lemma "m-gŭgŭsār", :gloss "lugen", },
+           :gŭhar   {:pos :Verb, :lemma "s-ughar", :gloss "stelen", },
+           :gwʔad   {:pos :Verb, :lemma "gwʔad", :gloss "bewachen", },
+           :hada   {:pos :Verb, :lemma "hadā", :gloss "(zum fürsten erwählt werden)", },
+           :hadah   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :hakab   {:pos :Verb, :lemma "hakāb", :gloss "", },
+           :hakaf   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :hanig   {:pos :Verb, :lemma "halāg", :gloss "sich biegen", },
+           :har   {:pos :Verb, :lemma "", :gloss "want", },
+           :harid   {:pos :Verb, :lemma "harid", :gloss "slaughter", },
+           :hay   {:pos :Verb, :lemma "hāy", :gloss "be (Aux)", },
+           :herid   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :is   {:pos :Verb, :lemma "mō-‘ās", :gloss "verlassen", },
+           :kan   {:pos :Verb, :lemma "kān", :gloss "know", },
+           :kay   {:pos :Verb, :lemma "kāy", :gloss "be", },
+           :kehan   {:pos :Verb, :lemma "kehan", :gloss "love", },
+           :kesis   {:pos :Verb, :lemma "at-kasās", :gloss "wickeln", },
+           :keti   {:pos :Verb, :lemma "at-katāy", :gloss "legen", },
+           :ketib   {:pos :Verb, :lemma "ketib", :gloss "write", },
+           :kiloy   {:pos :Verb, :lemma "kilōy-im", :gloss "", },
+           :kiri   {:pos :Verb, :lemma "kiri", :gloss "rent", },
+           :ktbArb   {:pos :Verb, :lemma "[y]", :gloss "write", },
+           :ktbHeb   {:pos :Verb, :lemma "[y]", :gloss "write", },
+           :kuay   {:pos :Verb, :lemma "kuāy", :gloss "", },
+           :kut   {:pos :Verb, :lemma "sō--kut", :gloss "stossen", },
+           :kutaH   {:pos :Verb, :lemma "se-kŭata’", :gloss "verschlucken", },
+           :kwesi   {:pos :Verb, :lemma "kwesi", :gloss "count", },
+           :lau   {:pos :Verb, :lemma "[y]", :gloss "burn", },
+           :lemid   {:pos :Verb, :lemma "se-lamid", :gloss "lernen", },
+           :luw   {:pos :Verb, :lemma "lāu", :gloss "brennen", },
+           :man   {:pos :Verb, :lemma "asō-mān", :gloss "", },
+           :mekir   {:pos :Verb, :lemma "mekār", :gloss "raten", },
+           :men   {:pos :Verb, :lemma "menī-m-s", :gloss "shave", },
+           :meša   {:pos :Verb, :lemma "še-meša’", :gloss "spalten", },
+           :min   {:pos :Verb, :lemma "[y]", :gloss "shave", },
+           :mēk   {:pos :Noun, :lemma "mēk", :gloss "donkey", },
+           :nau   {:pos :Verb, :lemma "nāu", :gloss "", },
+           :negil   {:pos :Verb, :lemma "negāl", :gloss "offnen", },
+           :nekis   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :nika   {:pos :Verb, :lemma "e-sí-nki", :gloss "", },
+           :ram   {:pos :Verb, :lemma "rām", :gloss "(pass) sich anschliessen jemandem", },
+           :regig   {:pos :Verb, :lemma "m-ragāg", :gloss "vertreiben", },
+           :rekwi   {:pos :Verb, :lemma "rekwi", :gloss "fear s.o.", },
+           :rib   {:pos :Verb, :lemma "mō-rerāb", :gloss "not want, refuse", },
+           :saH   {:pos :Verb, :lemma "sāʔ", :gloss "(pass) sich setzen", },
+           :san   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :sawi   {:pos :Verb, :lemma "mē-swāy", :gloss "mischen", },
+           :seHag   {:pos :Verb, :lemma "ši-š’ag", :gloss "auf hangen", },
+           :sebar   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :sebib   {:pos :Verb, :lemma "ši-šabib", :gloss "sehen", },
+           :sebir   {:pos :Verb, :lemma "sebār", :gloss "(pass) sich flüchten", },
+           :sedid   {:pos :Verb, :lemma "sedid", :gloss "peel", },
+           :sefi   {:pos :Verb, :lemma "sefi", :gloss "drink", },
+           :sehag   {:pos :Verb, :lemma "sehag", :gloss "sweep", },
+           :selif   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :selit   {:pos :Verb, :lemma "si-salit", :gloss "putzen", },
+           :semit   {:pos :Verb, :lemma "semāt", :gloss "schmiren", },
+           :seni   {:pos :Verb, :lemma "seni", :gloss "stay", },
+           :serah   {:pos :Verb, :lemma "astarāh", :gloss "begleiten", },
+           :serid   {:pos :Verb, :lemma "serid", :gloss "warsagen", },
+           :siʔ   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :sugud   {:pos :Verb, :lemma "ši-šagŭd", :gloss "waschen", },
+           :t_a   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :taH   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :tab   {:pos :Verb, :lemma "mō-tetāb", :gloss "prugeln", },
+           :tib   {:pos :Verb, :lemma "sō-tib", :gloss "fullen", },
+           :tiba   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :tʔab   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :tʔaʔ   {:pos :Verb, :lemma "tʔaʔ", :gloss "beat", },
+           :tʔāb   {:pos :Verb, :lemma "tʔāb", :gloss "prügeln", },
+           :yak   {:pos :Verb, :lemma "yak-am", :gloss "", },
+           :yewas   {:pos :Verb, :lemma "yewās-is-am", :gloss "", },
+           :yi   {:pos :Verb, :lemma "yi'- ~ i'-", :gloss "be", },
+           :šedid   {:pos :Verb, :lemma "ši-šadid", :gloss "abschalen", },
+           }
+ :termclusters [
+                {:label "beja_Re-VPrefAffCCPerfect-auxFay"
+                 :note "RE#247 :: Durative pres/perf formed with MV[perf]+ Aux[pres/perf]. hay/fay differ acc. to dialect. Neg. cop kāy,cf. #142."
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :fay,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "í̄-fē"],
+                         [:Singular :Person2 :Masc "ti-fíy-a"],
+                         [:Singular :Person2 :Fem "tí̄-fi"],
+                         [:Singular :Person3 :Masc "í̄-fi"],
+                         [:Singular :Person3 :Fem "tí̄-fī"],
+                         [:Plural :Person1 :Common "ní̄-fi"],
+                         [:Plural :Person2 :Common "ti-fí-na"],
+                         [:Plural :Person3 :Common "i-fí-na"]]
+                 }
+                {:label "beja_Re-VPrefAffCCPerfect-auxHay"
+                 :note "RE#247 :: Durative pres/perf formed with MV[perf]+ Aux[pres/perf].
+            hay/fay differ acc. to dialect. Neg. cop kāy,cf. #142."
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :hay,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "i-hē"],
+                         [:Singular :Person2 :Masc "ti-híy-a"],
+                         [:Singular :Person2 :Fem "tí̄-hī"],
+                         [:Singular :Person3 :Masc "í̄-hi"],
+                         [:Singular :Person3 :Fem "tí̄-hi"],
+                         [:Plural :Person1 :Common "ní̄-hi"],
+                         [:Plural :Person2 :Common "ti-hí̄-na"],
+                         [:Plural :Person3 :Common "i-hí̄-na"]]
+                 }
+                {:label "beja_Re-VPrefAffCCPresent-auxFay"
+                 :note "RE#247 :: Durative pres/perf formed with MV[perf]+ Aux[pres/perf].
+            hay/fay differ acc. to dialect. Neg. cop kāy,cf. #142."
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :fay,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "í̄-fe"],
+                         [:Singular :Person2 :Masc "te-fá̄y-a"],
+                         [:Singular :Person2 :Fem "te-fá̄y"],
+                         [:Singular :Person3 :Masc "é̄-fe"],
+                         [:Singular :Person3 :Fem "té̄-fe"],
+                         [:Plural :Person1 :Common "né̄-fe"],
+                         [:Plural :Person3 :Common "e-fé̄-na"],
+                         [:Plural :Person3 :Common "te-fé̄-na"]]
+                 }
+                {:label "beja_Re-VPrefAffCCPresent-auxHay"
+                 :note "RE#247 :: Durative pres/perf formed with MV[perf]+ Aux[pres/perf].
+            hay/fay differ acc. to dialect. Neg. cop kāy,cf. #142."
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :hay,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "é̄-he"],
+                         [:Singular :Person2 :Masc "te-há̄y-a"],
+                         [:Singular :Person2 :Fem "te-há̄y"],
+                         [:Singular :Person3 :Masc "é̄-he"],
+                         [:Singular :Person3 :Fem "té̄-he"],
+                         [:Plural :Person1 :Common "né̄-he"],
+                         [:Plural :Person2 :Common "te-hé-̄na"],
+                         [:Plural :Person3 :Common "e-hé̄-na"]]
+                 }
+                {:label "beja_Re-VPrefAffFuture1-dir"
+                 :note "RE#249 :: Future tenses are formed with main verb participle derát-,fídgat- plus a perfect conjugated auxiliary yi- aff,ka+are/rib neg."
+                 :common {:vmorphClass :FiniteCompound
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Future1}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "derát yí-, í’-ani"],
+                         [:Singular :Person2 :Masc "derát ē-tníy-a"],
+                         [:Singular :Person2 :Fem "derát é̄-tnī"],
+                         [:Singular :Person3 :Masc "derát é̄-nī"],
+                         [:Singular :Person3 :Fem "derát é̄-tnī"],
+                         [:Plural :Person1 :Common "derát ē-né̄y"],
+                         [:Plural :Person2 :Common "derát ē-té̄na"],
+                         [:Plural :Person3 :Common "derát é̄-na, I’-é̄n"]]
+                 }
+                {:label "beja_Re-VPrefAffFuture2-dir"
+                 :note "RE#252 ::  Future2 formed with inflected aux di say and 1st pers. sg. plusperf of main verb,lit. I will kill"
+                 :common {:vmorphClass :FiniteCompound
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Future2}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "e-dar á-n-di"],
+                         [:Singular :Person2 :Masc "e-dar te-n-díy-a"],
+                         [:Singular :Person2 :Fem "e-dar te-n-dí̄"],
+                         [:Singular :Person3 :Masc "e-dar é-n-di"],
+                         [:Singular :Person3 :Fem "e-dar té-n-di"],
+                         [:Plural :Person1 :Common "e-dar ni-yád"],
+                         [:Plural :Person2 :Common "e-dar ti-yád-na"],
+                         [:Plural :Person3 :Common "e-dar i-yád-na"]]
+                 }
+                {:label "beja_Re-VPrefAffFuture2Var-dir"
+                 :note "RE#252 :: Future2 formed with inflected aux di say and 1st pers. sg. plusperf of main verb,lit. I will kill they say. (Future2Var allows 1st pers pl plusperf of main verb for plural subjects.)[Not clear from #252 of Future2Var also possible in plural.]"
+                 :common {:vmorphClass :FiniteCompound
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Future2Var}
+                 :terms [[:number :person :gender :token],
+                         [:Plural :Person1 :Common "ne-fadíg ni-yád"],
+                         [:Plural :Person2 :Common "ne-fadíg ti-yád-na"],
+                         [:Plural :Person3 :Common "ne-fadíg i-yád-na"]]
+                 }
+                {:label "beja_Re-VPrefAffFuture3-fedig"
+                 :note "RE#253 :: Future3 is formed with infinitive of main verb and conjugated
+            aux haruw want"
+                 :common {:vmorphClass :FiniteCompound
+                          :conjClass :Prefix,
+                          :lexeme :fedig,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Future3}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "fedug a-hanrí̄û"],
+                         [:Singular :Person2 :Masc "fedug hanrí̄w-a"],
+                         [:Singular :Person2 :Fem "fedug hanrí̄w-i"],
+                         [:Singular :Person3 :Masc "fedug hanrí̄û"],
+                         [:Singular :Person3 :Fem "fedug hanrí̄u"],
+                         [:Plural :Person1 :Common "fedug ne-harú̄"],
+                         [:Plural :Person2 :Common "fedug te-harú̄-na"],
+                         [:Plural :Person3 :Common "fedug e-harú̄-na"]]
+                 }
+                {:label "beja_Re-VPrefAffImprtv-dir"
+                 :note "RE#255"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                                                    :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :gender :token],
+                         [:Singular :Person2 :Masc "dír-a!"],
+                         [:Singular :Person2 :Fem "dír-i!"],
+                         [:Plural :Person2 :Common "dír-na!"]]
+                 }
+                {:label "beja_Re-VPrefAffImprtv-fedig"
+                 :note "RE#255"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :fedig,
+                                                    :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person2 :Masc "fédg-a!"],
+                         [:Singular :Person2 :Fem "fédg-i!"],
+                         [:Plural :Person2 :Common "fedíg-na!"]]
+                 }
+                {:label "beja_Re-VPrefAffImprtv-harid"
+                 :note "RE#255"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :harid,
+                                                    :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person2 :Masc "hæård-a!"],
+                         [:Singular :Person2 :Fem "hard-i!"],
+                         [:Plural :Person2 :Common "haríd-na!"]]
+                 }
+                {:label "beja_Re-VPrefAffImprtv-kehan"
+                 :note "RE#255"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :kehan,
+                                                    :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person2 :Masc "kehán-a!"],
+                         [:Singular :Person2 :Fem "kehán-i!"],
+                         [:Plural :Person2 :Common "kehán-na!"]]
+                 }
+                {:label "beja_Re-VPrefAffImprtv-seni"
+                 :note "RE#255"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :seni,
+                                                    :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person2 :Masc "sény-a!"],
+                         [:Singular :Person2 :Fem "sé̄ni!"],
+                         [:Plural :Person2 :Common "sení̄-na!"]]
+                 }
+                {:label "beja_Re-VPrefAffJussive-dir"
+                 :note "RE#257"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Jussive}
+                 :terms [[:lexeme :number :person :gender :token],
+                         [:dir :Singular :Person1 :Common "der-at-é̄ni"],
+                         [:dir :Singular :Person2 :Masc "dír-at-a"],
+                         [:dir :Singular :Person2 :Fem "dír-at-i"],
+                         [:dir :Singular :Person3 :Masc "ba-‘e-dá̄r"],
+                         [:dir :Singular :Person3 :Fem "ba-te-dá̄r"],
+                         [:dir :Plural :Person1 :Common "dir-at-ēné̄y"],
+                         [:dir :Plural :Person2 :Common "der-át-na"],
+                         [:dir :Plural :Person3 :Common "ba-‘e-dá̄r-na"]]
+                 }
+                {:label "beja_Re-VPrefAffJussive-fedig"
+                 :note "RE#257"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :fedig,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Jussive}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "fedg-at-é̄ni"],
+                         [:Singular :Person2 :Masc "fédg-at-a"],
+                         [:Singular :Person2 :Fem "fédg-at-i"],
+                         [:Singular :Person3 :Masc "ba-‘í̄-fdeg"],
+                         [:Singular :Person3 :Fem "ba-tí̄-fdeg"],
+                         [:Plural :Person1 :Common "fedg-at-ēneé̄y"],
+                         [:Plural :Person2 :Common "fedg-át-na"],
+                         [:Plural :Person3 :Common "ba-‘ī-fdíg-na"]]
+                 }
+                {:label "beja_Re-VPrefAffOptative-dir"
+                 :note "RE#263"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Optative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "i-dar-é̄"],
+                         [:Singular :Person2 :Masc "ti-dar-é̄-ya"],
+                         [:Singular :Person2 :Fem "ti-dar-é̄-y"],
+                         [:Singular :Person3 :Masc "i-dar-é̄"],
+                         [:Singular :Person3 :Fem "ti-dar-é̄"],
+                         [:Plural :Person1 :Common "ni-dar-é̄"],
+                         [:Plural :Person2 :Common "tí-dar-n-é̄"],
+                         [:Plural :Person3 :Common "i-dar-n-é̄"]]
+                 }
+                {:label "beja_Re-VPrefAffOptative-fedig"
+                 :note "RE#263"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :fedig,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Optative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "i-fdeg-é̄"],
+                         [:Singular :Person2 :Masc "ti-fdeg-é̄-ya"],
+                         [:Singular :Person2 :Fem "ti-fdeg-é̄-y"],
+                         [:Singular :Person3 :Masc "i-fdeg-é̄"],
+                         [:Singular :Person3 :Fem "ti-fdeg-é̄"],
+                         [:Plural :Person1 :Common "ni-fdeg-é̄"],
+                         [:Plural :Person2 :Common "ti-fdeg-n-é̄"],
+                         [:Plural :Person3 :Common "i-fdeg-n-é̄"]]
+                 }
+                {:label "beja_Re-VPrefAffOptative-seni"
+                 :note "RE#263"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :seni,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Optative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "i-san-é̄"],
+                         [:Singular :Person2 :Masc "ti-san-é̄-ya"],
+                         [:Singular :Person2 :Fem "ti-san-é̄-y"],
+                         [:Singular :Person3 :Masc "i-san-é̄"],
+                         [:Singular :Person3 :Fem "ti-san-é̄"],
+                         [:Plural :Person1 :Common "ni-san-é̄"],
+                         [:Plural :Person2 :Common "ti-san-n-é̄"],
+                         [:Plural :Person3 :Common "i-san-n-é̄"]]
+                 }
+                {:label "beja_Re-VPrefAffPluperfRootForm"
+                 :note "RE#232 :: break up into mono-lex pdgms?"
+                 :common {:vmorphClass :Finite_Partial
+                          :conjClass :Prefix,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Pluperfect}
+                 :terms [[:lexeme :rootClass :number :person :gender :token],
+                         [:dar :CaC :Singular :Person1 :Common "e-dár"],
+                         [:dar :CaC :Singular :Person2 :Masc "te-dár-a"],
+                         [:dar :CaC :Singular :Person2 :Fem "te-dár-i"],
+                         [:dar :CaC :Singular :Person3 :Masc "e-dár"],
+                         [:dar :CaC :Singular :Person3 :Fem "te-dár"],
+                         [:fedig :CCC :Singular :Person1 :Common "í-fdeg"],
+                         [:fedig :CCC :Singular :Person2 :Masc "tí-fdeg-a"],
+                         [:fedig :CCC :Singular :Person2 :Fem "tí-fdeg-i"],
+                         [:fedig :CCC :Singular :Person3 :Masc "í-fdeg"],
+                         [:fedig :CCC :Singular :Person3 :Fem "tí-fdeg"],
+                         [:ged :CeC :Singular :Person1 :Common "í-ged"],
+                         [:ged :CeC :Singular :Person2 :Masc "tí-ged-a"],
+                         [:ged :CeC :Singular :Person2 :Fem "tí-ged-i"],
+                         [:ged :CeC :Singular :Person3 :Masc "í-ged"],
+                         [:ged :CeC :Singular :Person3 :Fem "tí-ged"]]
+                 }
+                {:label "beja_Re-VPrefAffPluperfStemFormation"
+                 :note "RE#231"
+                 :common {:vmorphClass :DERVSTEMAORIST
+                          :conjClass :Prefix,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Pluperfect}
+                 :terms [[:derivedStem :derivedStemAug :lexeme :token],
+                         [:Base :Intensive :bedin "i-bdān"],
+                         [:Base :Intensive :dedir "i-dedír"],
+                         [:Base :Intensive :fedig "i-fdāg"],
+                         [:Base :Intensive :fedig "i-fefdíg"],
+                         [:Base :Intensive :felaH "i-feflá’"],
+                         [:Base :Intensive :kehan "i-kekhan"],
+                         [:Base :Intensive :tib "i-tba"],
+                         [:Base :Intransitive :am "é-‘ama"],
+                         [:Base :Intransitive :beHin "i-b’na"],
+                         [:Base :Intransitive :dah "i-dha"],
+                         [:Base :Intransitive :nekis "i-nkisa"],
+                         [:Base :Simple :Hat "i-‘at"],
+                         [:Base :Simple :abik "i-‘ebík"],
+                         [:Base :Simple :dar "e-dár"],
+                         [:Base :Simple :fedig "i-fdeg"],
+                         [:Base :Simple :felaH "i-fla’"],
+                         [:Base :Simple :ged "i-ged"],
+                         [:Base :Simple :herid "i-heríd"],
+                         [:Base :Simple :kehan "i-khan"],
+                         [:Base :Simple :san "e-sán"],
+                         [:Cooperative :Simple :delib "i-m-delíb"],
+                         [:Cooperative :Simple :dir "e-mú-dir"],
+                         [:Cooperative :Simple :fedig "e-mé-fdig"],
+                         [:M :Simple :dir "e-tú-dir"],
+                         [:M :Simple :fedig "i-t-fedíg"],
+                         [:M :Simple :sebir "e-stisebír"],
+                         [:M :Simple :semit "e-stísmit"],
+                         [:M :Simple :taH "e-tú-ta’"],
+                         [:Reciprocal :Simple :dedir "i-m-dedír"],
+                         [:Reciprocal :Simple :fedig "i-m-fefdíg"],
+                         [:S :Intensive :bedin "e-s-bíden"],
+                         [:S :Intensive :dedir "i-s-dedír"],
+                         [:S :Intensive :dedir "i-si-s-dedír"],
+                         [:S :Intensive :dir "e-si-sú-dir"],
+                         [:S :Intensive :fedig "e-s-fdeg"],
+                         [:S :Intensive :tib "e-s-tíba"],
+                         [:S :Intransitive :am "e-s-‘im"],
+                         [:S :Intransitive :beHin "e-sí-b’in"],
+                         [:S :Intransitive :dih "e-sú-dih"],
+                         [:S :Intransitive :nika "e-sí-nki"],
+                         [:S :Simple :dir "e-sú-dir"],
+                         [:S :Simple :fedig "i-s-fedíg"],
+                         [:S :Simple :san "e-si-sán"],
+                         [:S :Simple :sebir "e-si-sebír"],
+                         [:S :Simple :taH "e-sū-ta’"]]
+                 }
+                {:label "beja_Re-VPrefAffPres-di"
+                 :note "RE#252 :: used as aux with Future2"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :di,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-n-di"],
+                         [:Singular :Person2 :Masc "te-n-díy-a"],
+                         [:Singular :Person2 :Fem "te-n-dí̄"],
+                         [:Singular :Person3 :Masc "é-n-di"],
+                         [:Singular :Person3 :Fem "té-n-di"],
+                         [:Plural :Person1 :Common "ni-yád"],
+                         [:Plural :Person2 :Common "ti-yád-na"],
+                         [:Plural :Person3 :Common "i-yád-na"]]
+                 }
+                {:label "beja_Re-VPrefAffPres-har"
+                 :note "RE#253 :: Used as aux in Future3"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :har,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "kā-harú̄"],
+                         [:Singular :Person2 :Masc "ki-t-háruw-a"],
+                         [:Singular :Person2 :Fem "ki-t-háruw-i"],
+                         [:Singular :Person3 :Masc "kī-harú̄"],
+                         [:Singular :Person3 :Fem "ki-t-harú̄"],
+                         [:Plural :Person1 :Common "ki-n-harú̄"],
+                         [:Plural :Person2 :Common "ki-t-harú̄-na"],
+                         [:Plural :Person3 :Common "ki-harú̄-na"]]
+                 }
+                {:label "beja_Re-VPrefAffPres-har"
+                 :note "RE#253 :: Used as aux in Future3"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :har,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-hanrí̄û"],
+                         [:Singular :Person2 :Masc "hanrí̄w-a"],
+                         [:Singular :Person2 :Fem "hanrí̄w-i"],
+                         [:Singular :Person3 :Masc "hanrí̄û"],
+                         [:Singular :Person3 :Fem "hanrí̄u"],
+                         [:Plural :Person1 :Common "ne-harú̄"],
+                         [:Plural :Person2 :Common "te-harú̄-na"],
+                         [:Plural :Person3 :Common "e-harú̄-na"]]
+                 }
+                {:label "beja_Re-VPrefAffPres-yi"
+                 :note "RE#249 :: used as aux with Future1"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :yi,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "yí-, í’-ani"],
+                         [:Singular :Person2 :Masc "ē-tníy-a"],
+                         [:Singular :Person2 :Fem "é̄-tnī"],
+                         [:Singular :Person3 :Masc "é̄-nī"],
+                         [:Singular :Person3 :Fem "é̄-tnī"],
+                         [:Plural :Person1 :Common "ē-né̄y"],
+                         [:Plural :Person2 :Common "ē-té̄na"],
+                         [:Plural :Person3 :Common "é̄-na, I’-é̄n"]]
+                 }
+                {:label "beja_Re-VPrefAffPres-yi"
+                 :note "RE#249 :: used as aux with Future1"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :yi,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ká̄-di"],
+                         [:Singular :Person2 :Masc "ki-d-díy-a"],
+                         [:Singular :Person2 :Fem "ki-d-dí"],
+                         [:Singular :Person3 :Masc "kī-di"],
+                         [:Singular :Person3 :Fem "kí̄-d-di"],
+                         [:Plural :Person1 :Common "kí-n-di"],
+                         [:Plural :Person2 :Common "ki-d-dí̄-na"],
+                         [:Plural :Person3 :Common "kī-dí̄-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-am"
+                 :note "RE#244"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :am,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :BaseIntns,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "é̄-‘ami"],
+                         [:Singular :Person2 :Masc "tē-‘ámy-a"],
+                         [:Singular :Person2 :Fem "tē-‘amí̄"],
+                         [:Singular :Person3 :Masc "é̄-‘ami"],
+                         [:Singular :Person3 :Fem "té̄-‘ami"],
+                         [:Plural :Person1 :Common "né̄-‘ami"],
+                         [:Plural :Person2 :Common "tē-‘amí̄-na"],
+                         [:Plural :Person3 :Common "ē-‘amí̄-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-am"
+                 :note "RE#245"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :am,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :CausalIntransitive,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-s-‘ami"],
+                         [:Singular :Person2 :Masc "te-s-‘ámy-a"],
+                         [:Singular :Person2 :Fem "te-s-‘amí̄"],
+                         [:Singular :Person3 :Masc "é̄-s-‘ami"],
+                         [:Singular :Person3 :Fem "té̄-s-‘ami"],
+                         [:Plural :Person1 :Common "né̄-s-‘ami"],
+                         [:Plural :Person2 :Common "te-s-‘amí̄-na"],
+                         [:Plural :Person3 :Common "e-s-‘amí̄-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-be_an"
+                 :note "RE#244"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :beʔān,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCC,
+                          :derivedStem :BaseIntns,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-b’ani"],
+                         [:Singular :Person2 :Masc "te-b’ány-a"],
+                         [:Singular :Person2 :Fem "te-b’aní̄"],
+                         [:Singular :Person3 :Masc "é̄-b’ani"],
+                         [:Singular :Person3 :Fem "té̄-b’ani"],
+                         [:Plural :Person1 :Common "né̄-b’ani"],
+                         [:Plural :Person2 :Common "te-b’aní̄-na"],
+                         [:Plural :Person3 :Common "e-b’aní̄-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-bis"
+                 :note "RE#235"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :bis,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-m-bí̄s"],
+                         [:Singular :Person2 :Masc "té-m-bīs-a"],
+                         [:Singular :Person2 :Fem "té-m-bīs-"],
+                         [:Singular :Person3 :Masc "e-m-bí̄s"],
+                         [:Singular :Person3 :Fem "te-m-bí̄s"],
+                         [:Plural2 :Person1 :Common "ne-bé̄s"],
+                         [:Plural2 :Person2 :Common "tē-bé̄s-na"],
+                         [:Plural2 :Person3 :Common "ē-bé̄s-na"],
+                         [:Plural :Person1 :Common "né̄-bis"],
+                         [:Plural :Person2 :Common "tē-bís-na"],
+                         [:Plural :Person3 :Common "ē-bís-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-dah"
+                 :note "RE#244"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :dah,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCC,
+                          :derivedStem :BaseIntns,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "é̄-dhi"],
+                         [:Singular :Person2 :Masc "té̄-dhiy-a"],
+                         [:Singular :Person2 :Fem "té̄-dhī"],
+                         [:Singular :Person3 :Masc "é̄-dhi"],
+                         [:Singular :Person3 :Fem "té̄-dhi"],
+                         [:Plural :Person1 :Common "né̄-dhi"],
+                         [:Plural :Person2 :Common "tē-dhí̄-na"],
+                         [:Plural :Person3 :Common "ē-dhí̄-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-dah"
+                 :note "RE#245"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :dah,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :CausalIntransitive,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-só̄-dhi"],
+                         [:Singular :Person2 :Masc "te-só̄-dhiy-a"],
+                         [:Singular :Person2 :Fem "te-só̄-dhī"],
+                         [:Singular :Person3 :Masc "e-só̄-dhi"],
+                         [:Singular :Person3 :Fem "te-só̄-dhi"],
+                         [:Plural :Person1 :Common "ne-só̄-dhi"],
+                         [:Plural :Person2 :Common "te-sō-dhina"],
+                         [:Plural :Person3 :Common "e-sō-dhí̄-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-dir"
+                 :note "RE#235"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-n-dír"],
+                         [:Singular :Person2 :Masc "té-n-dīr-a"],
+                         [:Singular :Person2 :Fem "té-n-dīr-i"],
+                         [:Singular :Person3 :Masc "e-n-dīr"],
+                         [:Singular :Person3 :Fem "te-n-dí̄r"],
+                         [:Plural :Person1 :Common "né̄-dir ~ ne-dé̄r"],
+                         [:Plural :Person2 :Common "tē-dír-na ~ tē-dé̄r-na"],
+                         [:Plural :Person3 :Common "ē-dír-na ~ ē-dé̄r-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-dir"
+                 :note "RE#239"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :BaseIntns,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ē-dirií̄"],
+                         [:Singular :Person2 :Masc "tē-dirí̄-ya"],
+                         [:Singular :Person2 :Fem "tē-dirí̄"],
+                         [:Singular :Person3 :Masc "ē-dirí̄"],
+                         [:Singular :Person3 :Fem "tē-dirí̄"],
+                         [:Plural :Person1 :Common "nē-dirí̄"],
+                         [:Plural :Person2 :Common "tē-dirí̄-na"],
+                         [:Plural :Person3 :Common "ē-dirí̄-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-dir"
+                 :note "RE#240"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :Causative,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-sō-dí̄r"],
+                         [:Singular :Person2 :Masc "te-só̄-dir-a"],
+                         [:Singular :Person2 :Fem "te-só̄-dīr-i"],
+                         [:Singular :Person3 :Masc "e-sō-dí̄r"],
+                         [:Singular :Person3 :Fem "te-sō-dí̄r"],
+                         [:Plural :Person1 :Common "ne-sō-dí̄r"],
+                         [:Plural :Person2 :Common "te-sō-dīr-na"],
+                         [:Plural :Person3 :Common "e-sō-dí̄r-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-fedig"
+                 :note "RE#239"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :fedig,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCC,
+                          :derivedStem :BaseIntns,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "é̄-fdīg"],
+                         [:Singular :Person2 :Masc "té̄-fdīg-a"],
+                         [:Singular :Person2 :Fem "té̄-fdīg-i"],
+                         [:Singular :Person3 :Masc "é̄-fdīg"],
+                         [:Singular :Person3 :Fem "té̄-fdīg"],
+                         [:Plural :Person1 :Common "né̄-fdīg"],
+                         [:Plural :Person2 :Common "tē-fdíg-na"],
+                         [:Plural :Person3 :Common "ē-fíg-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-gid"
+                 :note "RE#235"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :gid,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-n-gí̄d"],
+                         [:Singular :Person2 :Masc "té-n-gīd-a"],
+                         [:Singular :Person2 :Fem "té-n-gīd-i"],
+                         [:Singular :Person3 :Masc "e-n-gīd"],
+                         [:Singular :Person3 :Fem "te-n-gīd"],
+                         [:Plural2 :Person1 :Common "ne-gé̄d"],
+                         [:Plural2 :Person2 :Common "tē-gé̄d-na"],
+                         [:Plural2 :Person3 :Common "ē-gé̄d-na"],
+                         [:Plural :Person1 :Common "né̄-gid"],
+                         [:Plural :Person2 :Common "tē-gíd-na"],
+                         [:Plural :Person3 :Common "ē-gíd-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-kan"
+                 :note "RE#241"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :kan,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :Reflexive,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-kté̄n"],
+                         [:Singular :Person2 :Masc "té-ktēn-a"],
+                         [:Singular :Person2 :Fem "té-ktēn-i"],
+                         [:Singular :Person3 :Masc "e-kté̄n"],
+                         [:Singular :Person3 :Fem "te-kté̄n"],
+                         [:Plural :Person1 :Common "ne-kté̄n"],
+                         [:Plural :Person2 :Common "te-kté̄n-na"],
+                         [:Plural :Person3 :Common "e-kté̄n-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-kay"
+                 :note "RE#241"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :kay,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :Reflexive,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-katí̄"],
+                         [:Singular :Person2 :Masc "te-kátī-ya"],
+                         [:Singular :Person2 :Fem "te-kátī-yi"],
+                         [:Singular :Person3 :Masc "e-katí̄"],
+                         [:Singular :Person3 :Fem "te-katí̄"],
+                         [:Plural :Person1 :Common "ne-katí̄"],
+                         [:Plural :Person2 :Common "te-katí̄-na"],
+                         [:Plural :Person3 :Common "e-katí̄-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-ram"
+                 :note "RE#241"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :ram,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :Passive,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "e-t-rí̄m"],
+                         [:Singular :Person2 :Masc "té-t-rīm-a"],
+                         [:Singular :Person2 :Fem "té-t-rīm-i"],
+                         [:Singular :Person3 :Masc "e-t-rí̄m"],
+                         [:Singular :Person3 :Fem "te-t-rí̄m"],
+                         [:Plural :Person1 :Common "ne-t-rí̄m"],
+                         [:Plural :Person2 :Common "te-t-rí̄m-na"],
+                         [:Plural :Person3 :Common "e-t-rí̄m-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-t_a"
+                 :note "RE#235"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :t_a,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-n-tí̄’"],
+                         [:Singular :Person2 :Masc "té-n-tī’-a"],
+                         [:Singular :Person2 :Fem "té-n-tī’-i"],
+                         [:Singular :Person3 :Masc "e-n-tí̄’"],
+                         [:Singular :Person3 :Fem "te-n-tí̄’"],
+                         [:Plural :Person1 :Common "né̄-ta’ ~ ne-té̄"],
+                         [:Plural :Person2 :Common "tē-tá’-na ~ tē-té̄’na"],
+                         [:Plural :Person3 :Common "ē-tá’-na ~ ē-té̄’na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-tʔab"
+                 :note "RE#239"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :tʔab,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :BaseIntns,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "é̄-tbī"],
+                         [:Singular :Person2 :Masc "té̄-tbī-ya"],
+                         [:Singular :Person2 :Fem "té̄-tbī-ya"],
+                         [:Singular :Person3 :Masc "é̄-tbī"],
+                         [:Singular :Person3 :Fem "té̄-tbī"],
+                         [:Plural :Person1 :Common "né̄-tbī"],
+                         [:Plural :Person2 :Common "t-ētbí̄-na"],
+                         [:Plural :Person3 :Common "ē-tbí̄-na"]]
+                 }
+                {:label "beja_Re-VPrefCCAffPresent-tʔaʔ"
+                 :note "RE#240"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :tʔaʔ,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :Causative,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-sō-tí̄’"],
+                         [:Singular :Person2 :Masc "te-só̄-tī’-a"],
+                         [:Singular :Person2 :Fem "te-só̄-tī’-i"],
+                         [:Singular :Person3 :Masc "e-sō-tí̄’"],
+                         [:Singular :Person3 :Fem "te-sō-tí̄’"],
+                         [:Plural :Person1 :Common "ne-sō-tí̄’"],
+                         [:Plural :Person2 :Common "te-sō-tí̄’na"],
+                         [:Plural :Person3 :Common "e-sō’tí̄’-na"]]
+                 }
+                {:label "beja_Re-VPrefCCCAffPerfectCompSem"
+                 :note "RE#225 :: compares Arb, Heb imperfect with Beniamer perfect"
+                 :common {:vmorphClass :COMPSEM
+                          :conjClass :Prefix,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCC,
+                          :tam :Imperfect}
+                 :terms [[:complang :lexeme :number :person :gender :token],
+                         [:Arabic :ktbArb :Singular :Person1 :Common "á-ktub-u"],
+                         [:Arabic :ktbArb :Singular :Person2 :Masc "tá-ktub-u"],
+                         [:Arabic :ktbArb :Singular :Person2 :Fem "ta-ktub-ina"],
+                         [:Arabic :ktbArb :Singular :Person3 :Masc "yá-ktub-u"],
+                         [:Arabic :ktbArb :Singular :Person3 :Fem "tá-ktub-u"],
+                         [:Arabic :ktbArb :Plural :Person1 :Common "ná-ktub-u"],
+                         [:Arabic :ktbArb :Plural :Person2 :Masc "ta-ktub-úna"],
+                         [:Arabic :ktbArb :Plural :Person2 :Fem "ta-ktúb-na"],
+                         [:Arabic :ktbArb :Plural :Person3 :Masc "ya-ktub-úna"],
+                         [:Arabic :ktbArb :Plural :Person3 :Fem "ta-ktúb-na"],
+                         [:Hebrew :ktbHeb :Singular :Person1 :Common "a-któb"],
+                         [:Hebrew :ktbHeb :Singular :Person2 :Masc "ti-któb"],
+                         [:Hebrew :ktbHeb :Singular :Person2 :Fem "ti-kteb-i"],
+                         [:Hebrew :ktbHeb :Singular :Person3 :Masc "yi-któb"],
+                         [:Hebrew :ktbHeb :Singular :Person3 :Fem "ti-któb"],
+                         [:Hebrew :ktbHeb :Plural :Person1 :Common "ni-któb"],
+                         [:Hebrew :ktbHeb :Plural :Person2 :Masc "ti-kteb-ú"],
+                         [:Hebrew :ktbHeb :Plural :Person2 :Fem "ti-któb-na"],
+                         [:Hebrew :ktbHeb :Plural :Person3 :Masc "yi-kteb-ú"],
+                         [:Hebrew :ktbHeb :Plural :Person3 :Fem "ti-któb-na"]]
+                 }
+                {:label "beja_Re-VPrefCCCAffPerfectCompSem"
+                 :note "RE#225 :: compares Arb, Heb imperfect with Beniamer perfect"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :ketib,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCC,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-ktib"],
+                         [:Singular :Person2 :Masc "tí-ktib-a"],
+                         [:Singular :Person2 :Fem "tí-ktib-i"],
+                         [:Singular :Person3 :Masc "í-ktib"],
+                         [:Singular :Person3 :Fem "tí-ktib"],
+                         [:Plural :Person1 :Common "ní-ktib"],
+                         [:Plural :Person2 :Common "te-ktíb-na"],
+                         [:Plural :Person3 :Common "e-ktíb-na"]]
+                 }
+                {:label "beja_Re-VPrefCCCAffPresent-debil"
+                 :note "RE#236"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :debil,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCC,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-dambí̄l"],
+                         [:Singular :Person2 :Masc "dámbīl-a"],
+                         [:Singular :Person2 :Fem "dámbīl-i"],
+                         [:Singular :Person3 :Masc "dambí̄l"],
+                         [:Singular :Person3 :Fem "dambí̄l"],
+                         [:Plural :Person1 :Common "ne-dabíl"],
+                         [:Plural :Person2 :Common "te-dabíl-na"],
+                         [:Plural :Person3 :Common "e-dabíl-na"]]
+                 }
+                {:label "beja_Re-VPrefCCCAffPresent-fedig"
+                 :note "RE#240"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :fedig,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCC,
+                          :derivedStem :Causative,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-s-fadí̄g"],
+                         [:Singular :Person2 :Masc "te-s-fádīg-a"],
+                         [:Singular :Person2 :Fem "te-s-fádīg-i"],
+                         [:Singular :Person3 :Masc "e-s-fadí̄g"],
+                         [:Singular :Person3 :Fem "te-s-fadí̄g"],
+                         [:Plural :Person1 :Common "ne-s-fad’īg"],
+                         [:Plural :Person2 :Common "te-s-fadíg-na"],
+                         [:Plural :Person3 :Common "e-s-fadíg-na"]]
+                 }
+                {:label "beja_Re-VPrefCCCAffPresent-ketib"
+                 :note "RE#236"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :ketib,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCC,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-kantí̄b"],
+                         [:Singular :Person2 :Masc "kántīb-a"],
+                         [:Singular :Person2 :Fem "kántīb-i"],
+                         [:Singular :Person3 :Masc "kantí̄b"],
+                         [:Singular :Person3 :Fem "kantí̄b"],
+                         [:Plural :Person1 :Common "ne-katíb"],
+                         [:Plural :Person2 :Common "te-katíb-na"],
+                         [:Plural :Person3 :Common "e-katíb-na"]]
+                 }
+                {:label "beja_Re-VPrefCCCAffPresent-sebir"
+                 :note "RE#241"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :sebar,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCC,
+                          :derivedStem :Passive,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-stabí̄r"],
+                         [:Singular :Person2 :Masc "te-stábīr-a"],
+                         [:Singular :Person2 :Fem "te-stábīr-i"],
+                         [:Singular :Person3 :Masc "e-stabí̄r"],
+                         [:Singular :Person3 :Fem "te-stabí̄r"],
+                         [:Plural :Person1 :Common "ne-stabí̄r"],
+                         [:Plural :Person2 :Common "te-stabí̄r-na"],
+                         [:Plural :Person3 :Common "e-stabí̄r-na"]]
+                 }
+                {:label "beja_Re-VPrefCCCAffPresent-sedid"
+                 :note "RE#236"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :sedid,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCC,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-sandí̄d"],
+                         [:Singular :Person2 :Masc "sándīd-a"],
+                         [:Singular :Person2 :Fem "sándīd-i"],
+                         [:Singular :Person3 :Masc "sandí̄d"],
+                         [:Singular :Person3 :Fem "sandí̄d"],
+                         [:Plural :Person1 :Common "ne-sadíd"],
+                         [:Plural :Person2 :Common "te-sadíd-na"],
+                         [:Plural :Person3 :Common "e-sadíd-na"]]
+                 }
+                {:label "beja_Re-VPrefCCCAffPresent-siʔ"
+                 :note "RE#241"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :siʔ,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCC,
+                          :derivedStem :Passive,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "e-stí̄’"],
+                         [:Singular :Person2 :Masc "té-stī’-a"],
+                         [:Singular :Person2 :Fem "té-stī’-i"],
+                         [:Singular :Person3 :Masc "e-stí̄’"],
+                         [:Singular :Person3 :Fem "te-stí̄’"],
+                         [:Plural :Person1 :Common "ne-stí̄’"],
+                         [:Plural :Person2 :Common "te-stí̄’-na"],
+                         [:Plural :Person3 :Common "e-stí̄’-na"]]
+                 }
+                {:label "beja_Re-VPrefCCCNegPresent-ketib"
+                 :note "RE#246"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :ketib,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :rootClass :CCC,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ká̄-ktib"],
+                         [:Singular :Person2 :Masc "ki-t-ké̄tib-a"],
+                         [:Singular :Person2 :Fem "ki-t-ké̄tib-i"],
+                         [:Singular :Person3 :Masc "kí̄-ktib"],
+                         [:Singular :Person3 :Fem "ki-t-ketíb"],
+                         [:Plural :Person1 :Common "ki-n-ketíb̄"],
+                         [:Plural :Person2 :Common "ki-t-ketíb-na"],
+                         [:Plural :Person3 :Common "kī-ketíb-na"]]
+                 }
+                {:label "beja_Re-VPrefCCCNegPresent-serid"
+                 :note "RE#246"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :serid,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :rootClass :CCC,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ká̄-srid"],
+                         [:Singular :Person2 :Masc "ki-s-sé̄rid-a"],
+                         [:Singular :Person2 :Fem "ki-s-sé̄rid-i"],
+                         [:Singular :Person3 :Masc "kí̄-srid"],
+                         [:Singular :Person3 :Fem "ki-s-seríd"],
+                         [:Plural :Person1 :Common "ki-n-seríd"],
+                         [:Plural :Person2 :Common "ki-s-seríd-na"],
+                         [:Plural :Person3 :Common "kī-seríd-na"]]
+                 }
+                {:label "beja_Re-VPrefCCNegPresent-dir"
+                 :note "RE#246"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ká̄-dir"],
+                         [:Singular :Person2 :Masc "kí-d-dir-a"],
+                         [:Singular :Person2 :Fem "kí-d-dir-i"],
+                         [:Singular :Person3 :Masc "kí̄-dir"],
+                         [:Singular :Person3 :Fem "kí-d-dir"],
+                         [:Plural :Person1 :Common "kí-n-dir"],
+                         [:Plural :Person2 :Common "ki-d-dír-na"],
+                         [:Plural :Person3 :Common "kī-dír-na"]]
+                 }
+                {:label "beja_Re-VPrefCCNegPresentAuxFay"
+                 :note "RE#247 :: Durative pres/perf formed with MV[perf]+ Aux[pres/perf].
+            hay/fay differ acc. to dialect. Neg. cop kāy,cf. #142."
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :fay,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "kā-fá̄y"],
+                         [:Singular :Person2 :Masc "ki-t-fá̄y-a"],
+                         [:Singular :Person2 :Fem "ki-t-fá̄y"],
+                         [:Singular :Person3 :Masc "kī-fá̄y"],
+                         [:Singular :Person3 :Fem "ki-t-fá̄y"],
+                         [:Plural :Person1 :Common "ki-n-fá̄y"],
+                         [:Plural :Person2 :Common "ki-t-fé̄-na"],
+                         [:Plural :Person3 :Common "ki-fé̄-na"]]
+                 }
+                {:label "beja_Re-VPrefCCYAffPresent-kwesi"
+                 :note "RE#237"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :kwesi,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCY,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-kŭansí̄"],
+                         [:Singular :Person2 :Masc "kŭánsī-ya"],
+                         [:Singular :Person2 :Fem "kŭánsī-yi"],
+                         [:Singular :Person3 :Common "kŭansí̄"],
+                         [:Plural :Person1 :Common "ne-kŭé̄s"],
+                         [:Plural :Person2 :Common "te-kŭé̄s-na"],
+                         [:Plural :Person3 :Common "e-kŭé̄s-na"]]
+                 }
+                {:label "beja_Re-VPrefCCYAffPresent-rekwi"
+                 :note "RE#237 :: Reinisch notes plural of rekwi in Hadendawa:ne-rankwi,te-rankui-na,e-rankwi-na (Note,p. 63)"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :rekwi,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCY,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-rånkŭí̄"],
+                         [:Singular :Person2 :Masc "rá̊nkŭī-ya"],
+                         [:Singular :Person2 :Fem "rá̊nkŭī-yi"],
+                         [:Singular :Person3 :Common "rånkŭí̄"],
+                         [:Plural :Person1 :Common "ne-ré̄kŭ (-ré̄uk)"],
+                         [:Plural :Person2 :Common "te-ré̄uk-na"],
+                         [:Plural :Person3 :Common "e-ré̄uk-na"]]
+                 }
+                {:label "beja_Re-VPrefCCYAffPresent-sefi"
+                 :note "RE#237"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :sefi,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CCY,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-sanfí̄"],
+                         [:Singular :Person2 :Masc "sánfī-ya"],
+                         [:Singular :Person2 :Fem "sánfī-yi"],
+                         [:Singular :Person3 :Common "sanfī"],
+                         [:Plural :Person1 :Common "ne-sé̄f"],
+                         [:Plural :Person2 :Common "te-sé̄f-na"],
+                         [:Plural :Person3 :Common "e-sé̄f-na"]]
+                 }
+                {:label "beja_Re-VPrefCHCAffPresent-beʔan"
+                 :note "RE#245"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :beʔan,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CHC,
+                          :derivedStem :CausalIntransitive,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-sí-b’ani"],
+                         [:Singular :Person2 :Masc "te-s-b’ány-a"],
+                         [:Singular :Person2 :Fem "te-s-b’aní̄"],
+                         [:Singular :Person3 :Masc "é-s-b’ani"],
+                         [:Singular :Person3 :Fem "té-s-b’ani"],
+                         [:Plural :Person1 :Common "né-s-b’ani"],
+                         [:Plural :Person2 :Common "te-s-b’aní̄-na"],
+                         [:Plural :Person3 :Common "e-s-b’aní̄-na"]]
+                 }
+                {:label "beja_Re-VPrefCHCAffPresent-gwʔad"
+                 :note "RE#238"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :gwʔad,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CHC,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-gŭan’í̄d"],
+                         [:Singular :Person2 :Masc "gŭán’īd-a"],
+                         [:Singular :Person2 :Fem "gŭán’īd-i"],
+                         [:Singular :Person3 :Common "gŭan’īd"],
+                         [:Plural :Person1 :Common "nē-gŭ’ád"],
+                         [:Plural :Person2 :Common "tē-gŭ’ád-na"],
+                         [:Plural :Person3 :Common "ē-gŭ’ad-na"]]
+                 }
+                {:label "beja_Re-VPrefCHCAffPresent-kehan"
+                 :note "RE#238"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :kehan,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CHC,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-khanhí̄n"],
+                         [:Singular :Person2 :Masc "kánhīn-a"],
+                         [:Singular :Person2 :Fem "kánhī-i"],
+                         [:Singular :Person3 :Common "kanhí̄n"],
+                         [:Plural :Person1 :Common "né̄-khna"],
+                         [:Plural :Person2 :Common "tē-khn-na"],
+                         [:Plural :Person3 :Common "ē-khán-na"]]
+                 }
+                {:label "beja_Re-VPrefCHCAffPresent-sehag"
+                 :note "RE#238"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :sehag,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :rootClass :CHC,
+                          :derivedStem :Base,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-sanhí̄g"],
+                         [:Singular :Person2 :Masc "sánhīg-a"],
+                         [:Singular :Person2 :Fem "sánhīg-i"],
+                         [:Singular :Person3 :Common "sanhí̄g"],
+                         [:Plural :Person1 :Common "né̄-shag"],
+                         [:Plural :Person2 :Common "tē-shág-na"],
+                         [:Plural :Person3 :Common "ē-shág-na"]]
+                 }
+                {:label "beja_Re-VPrefCausStemForm"
+                 :note "RE#203-208"
+                 :common {:vmorphClass :DERVSTEMCAUS
+                          :conjClass :Prefix,
+                          :derivedStem :S,
+                          :pos :Verb}
+                 :terms [[:lexeme :token-note :token],
+                         [:Had "Common, verfluchen lassen" "sō-‘ad"],
+                         [:Hasis "stem w. pal., begenen lassen" "š-‘ašiš"],
+                         [:Hat "Common, terten lassen" "sō-‘at"],
+                         [:abik "Common, halten lassen" "s-‘abik"],
+                         [:adil "Common, friden stiften" "s-adil"],
+                         [:afid "stem w. pal., niesen machen" "š-‘afid"],
+                         [:bedah "e goes_to a in CCC, bezeugen lassen" "se-badah"],
+                         [:bis "Common, begraben lassen" "sō-bis"],
+                         [:debil "Common, sammeln lassen" "se-debil"],
+                         [:debil "e goes_to a in CCC, wickeln lassen" "se-dabil"],
+                         [:delib "e goes_to a in CCC, kaufen lassen" "se-dalib"],
+                         [:dif "stem w. pal., farben lassen" "šō-dif"],
+                         [:feraH "e goes_to a in CCC, herausziehen lassen" "se-fara’"],
+                         [:guaH "Common, stossen lassen" "sō-gŭa’"],
+                         [:gŭhar "Common, stelen lassen" "s-ughar"],
+                         [:kut "Common, stossen lassen" "sō--kut"],
+                         [:kutaH "e goes_to a in CCC, schlucken lassen" "se-kŭata’"],
+                         [:lemid "e goes_to a in CCC, lernen lassen" "se-lamid"],
+                         [:meša "stem w. pal., spalten lassen" "še-meša’"],
+                         [:min "Common, rasiren lassen" "sō-min"],
+                         [:regig "e goes_to a in CCC, strecken lassen" "se-ragig"],
+                         [:seHag "stem w. pal., aufhangen lassen" "ši-š’ag"],
+                         [:sedid "e goes_to a in CCC, schalen lassen" "ši-šadid"],
+                         [:sehag "Common, fegen lassen" "si-shag"],
+                         [:selit "e goes_to a in CCC, putzen lassen" "si-salit"],
+                         [:serid "Common, warsagen lassen" "si-srid"],
+                         [:sugud "e goes_to a in CCC, waschen lassen" "ši-šagŭd"],
+                         [:taH "stem w. pal., schlagen lassen" "šō-ta’"],
+                         [:tib "Common, fuller lassen" "sō-tib"]]
+                 }
+                {:label "beja_Re-VPrefCollaborativeStemForm"
+                 :note "RE#217-218 :: coop- called by Reinisch ʔmitwirkungs- oder socialstammʔ"
+                 :common {:vmorphClass :DERVSTEMCOLL
+                          :conjClass :Prefix,
+                          :derivedStem :Collaborative,
+                          :pos :Verb}
+                 :terms [[:lexeme :token-note :token],
+                         [:baden "w. intensive, mitvergessen" "mē-bdān"],
+                         [:bedah "w. CCC verb, mitbezeugen" "m-badāh"],
+                         [:bis "w. CC verb, begraben helfen" "mō-bās"],
+                         [:bis "w. CC verb, toten helfen" "mō-dār"],
+                         [:dabar "w. CCC verb, mitverarmen" "m-dabār"],
+                         [:delib "w. CCC verb, kaufen helfen" "m-dalāb"],
+                         [:fayd "w. intensive, mitlachen" "mē-fyād"],
+                         [:fedig "w. intensive, verstossen helfen" "mē-fdāg"],
+                         [:is "w. CC verb, mitverlassen" "mō-‘ās"],
+                         [:lau "w. CC verb, mitverbrenne" "mō-lāu"],
+                         [:ram "w. CC verb, mitgehen" "mō-rām"],
+                         [:regig "w. CCC verb, verjagen helfen" "m-ragāg"],
+                         [:sawi "w. intensive, mischen helfen" "mē-swāy"],
+                         [:tib "w. CC verb, fullen helfen" "mō-tāb"]]
+                 }
+                {:label "beja_Re-VPrefCondPerfect-copAn"
+                 :note "RE#306"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :COPULA,
+                          :pos :Verb,
+                          :tam :ConditionalPerfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "‘an-é̄k"],
+                         [:Singular :Person2 :Masc "t-an-é̄k"],
+                         [:Singular :Person2 :Fem "t-an-é̄k"],
+                         [:Singular :Person3 :Masc "y-an-é̄k"],
+                         [:Singular :Person3 :Fem "t-an-é̄k"],
+                         [:Plural :Person1 :Common "n-an-é̄k"],
+                         [:Plural :Person2 :Common "t-ān-é̄k"],
+                         [:Plural :Person3 :Common "y-ān-é̄k"]]
+                 }
+                {:label "beja_Re-VPrefCondPresent-copAn"
+                 :note "RE#306"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :COPULA,
+                          :pos :Verb,
+                          :tam :ConditionalPresent}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "‘any-é̄k"],
+                         [:Singular :Person2 :Masc "te-ny-é̄k"],
+                         [:Singular :Person2 :Fem "te-ny-é̄k"],
+                         [:Singular :Person3 :Masc "e-ny-é̄k"],
+                         [:Singular :Person3 :Fem "te-ny-é̄k"],
+                         [:Plural :Person1 :Common "ne-ny-é̄k"],
+                         [:Plural :Person2 :Common "te-n-é̄k"],
+                         [:Plural :Person3 :Common "e-n-é̄k"]]
+                 }
+                {:label "beja_Re-VPrefNegCCPerfect-auxFay"
+                 :note "RE#247 :: Durative pres/perf formed with MV[perf]+ Aux[pres/perf]. hay/fay differ acc. to dialect. Neg. cop kāy,cf. #142."
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :fay,
+                          :conjSubType :AuxFay,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "fāy-á̄b ká̄-kē"],
+                         [:Singular :Person2 :Masc "fāy-á̄b kítta"],
+                         [:Singular :Person2 :Fem "fāy-á̄t kíttay"],
+                         [:Singular :Person3 :Masc "fāy-á̄b kí̄kē"],
+                         [:Singular :Person3 :Fem "fāy-á̄t kítte"],
+                         [:Plural :Person1 :Common "fāy-á̄ba kínke"],
+                         [:Plural :Person2 :Common "fāy-á̄ba kíttēna"],
+                         [:Plural :Person3 :Common "fāy-á̄ba kí̄kēna"]]
+                 }
+                {:label "beja_Re-VPrefNegCCPerfect-auxHay"
+                 :note "RE#247 :: Durative pres/perf formed with MV[perf]+ Aux[pres/perf]. hay/fay differ acc. to dialect. Neg. cop kāy,cf. #142."
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :conjSubType :AuxHay,
+                          :lexeme :hay,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "hāy-á̄b ká̄-kē"],
+                         [:Singular :Person2 :Masc "hāy-á̄b kítta"],
+                         [:Singular :Person2 :Fem "hāy-á̄t kíttay"],
+                         [:Singular :Person3 :Masc "hāy-á̄b kí̄kē"],
+                         [:Singular :Person3 :Fem "hāy-á̄t kítte"],
+                         [:Plural :Person1 :Common "hāy-á̄ba kínke"],
+                         [:Plural :Person2 :Common "hāy-á̄ba kíttēna"],
+                         [:Plural :Person3 :Common "hāy-á̄ba kí̄kēna"]]
+                 }
+                {:label "beja_Re-VPrefNegCCPerfect-auxKay"
+                 :note "RE#247 :: Durative pres/perf formed with MV[perf]+ Aux[pres/perf]. hay/fay differ acc. to dialect. Neg. cop kāy,cf. #142."
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :kay,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ká̄-kē"],
+                         [:Singular :Person2 :Masc "kítta"],
+                         [:Singular :Person2 :Fem "kíttay"],
+                         [:Singular :Person3 :Masc "kí̄kē"],
+                         [:Singular :Person3 :Fem "kítte"],
+                         [:Plural :Person1 :Common "kínke"],
+                         [:Plural :Person2 :Common "kíttēna"],
+                         [:Plural :Person3 :Common "kí̄kēna"]]
+                 }
+                {:label "beja_Re-VPrefNegCCPresent-auxHay"
+                 :note "RE#247 :: Durative pres/perf formed with MV[perf]+ Aux[pres/perf]. hay/fay differ acc. to dialect. Neg. cop kāy,cf. #142."
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :conjSubType :AuxHay,
+                          :lexeme :hay,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :rootClass :CC,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "kā-há̄y"],
+                         [:Singular :Person2 :Masc "ki-t-há̄y-a"],
+                         [:Singular :Person2 :Fem "ki-t-há̄y"],
+                         [:Singular :Person3 :Masc "kī-há̄y"],
+                         [:Singular :Person3 :Fem "ki-t-há̄y"],
+                         [:Plural :Person1 :Common "ki-n-há̄y"],
+                         [:Plural :Person2 :Common "ki-t-hé̄-na"],
+                         [:Plural :Person3 :Common "kī-hé̄-na"]]
+                 }
+                {:label "beja_Re-VPrefNegFuture1-dir"
+                 :note "RE#251 :: Future tenses are formed with main verb participle derát-,fídgat- plus a conjugated auxiliary yi- aff,ka+are/rib neg.; [here with rib"
+                 :common {:vmorphClass :FiniteCompound
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :NegativeEmphatic,
+                          :pos :Verb,
+                          :tam :Future1}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "derát a-ríib"],
+                         [:Singular :Person2 :Masc "derát tí-rib-a"],
+                         [:Singular :Person2 :Fem "derát tí-rib-i"],
+                         [:Singular :Person3 :Masc "derát e-ríb"],
+                         [:Singular :Person3 :Fem "derát te-ríb"],
+                         [:Plural :Person1 :Common "derát ne-ríb"],
+                         [:Plural :Person2 :Common "derát te-ríb-na"],
+                         [:Plural :Person3 :Common "derát e-ríib-na"]]
+                 }
+                {:label "beja_Re-VPrefNegFuture2-dir"
+                 :note "RE#252 :: Future2 formed with inflected aux di say and 1st pers. sg. plusperf of main verb,lit. I will kill they say. (Future2Var allows 1st pers pl plusperf of main verb for plural subjects.)"
+                 :common {:vmorphClass :FiniteCompound
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Future2}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "e-dar ká̄-di"],
+                         [:Singular :Person2 :Masc "e-dar ki-d-díy-a"],
+                         [:Singular :Person2 :Fem "e-dar ki-d-dí"],
+                         [:Singular :Person3 :Masc "e-dar kī-di"],
+                         [:Singular :Person3 :Fem "e-dar kí̄-d-di"],
+                         [:Plural :Person1 :Common "e-dar kí-n-di"],
+                         [:Plural :Person2 :Common "e-dar ki-d-dí̄-na"],
+                         [:Plural :Person3 :Common "e-dar kī-dí̄-na"]]
+                 }
+                {:label "beja_Re-VPrefNegFuture3-fedig"
+                 :note "RE#253 :: Future3 is formed with infinitive of main verb and conjugated aux haruw want"
+                 :common {:vmorphClass :FiniteCompound
+                          :conjClass :Prefix,
+                          :lexeme :fedig,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Future3}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "fedug kā-harú̄"],
+                         [:Singular :Person2 :Masc "fedug ki-t-háruw-a"],
+                         [:Singular :Person2 :Fem "fedug ki-t-háruw-i"],
+                         [:Singular :Person3 :Masc "fedug kī-harú̄"],
+                         [:Singular :Person3 :Fem "fedug ki-t-harú̄"],
+                         [:Plural :Person1 :Common "fedug ki-n-harú̄"],
+                         [:Plural :Person2 :Common "fedug ki-t-harú̄-na"],
+                         [:Plural :Person3 :Common "fedug ki-harú̄-na"]]
+                 }
+                {:label "beja_Re-VPrefNegImprtv-dir"
+                 :note "RE#256"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                                                    :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person2 :Masc "bá-dīr-a!"],
+                         [:Singular :Person2 :Fem "bí-dīr-i!"],
+                         [:Plural :Person2 :Common "bā-dí̄r-na!"]]
+                 }
+                {:label "beja_Re-VPrefNegImprtv-fedig"
+                 :note "RE#256"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :fedig,
+                                                    :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person2 :Masc "bā-fadí̄g-a!"],
+                         [:Singular :Person2 :Fem "bī-fadí̄g-i!"],
+                         [:Plural :Person2 :Common "bā-fadí̄g-na!"]]
+                 }
+                {:label "beja_Re-VPrefNegImprtv-harid"
+                 :note "RE#256"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :harid,
+                                                    :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person2 :Masc "bā-harí̄d-a!"],
+                         [:Singular :Person2 :Fem "bī-harí̄d-i!"],
+                         [:Plural :Person2 :Common "bā-harí̄d-na!"]]
+                 }
+                {:label "beja_Re-VPrefNegImprtv-kehan"
+                 :note "RE#256"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :kehan,
+                                                    :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person2 :Masc "bā-kehán-a!"],
+                         [:Singular :Person2 :Fem "bī-kahán-i!"],
+                         [:Plural :Person2 :Common "bā-kehán-na!"]]
+                 }
+                {:label "beja_Re-VPrefNegImprtv-seni"
+                 :note "RE#256"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :seni,
+                                                    :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person2 :Masc "bā-sény-a!"],
+                         [:Singular :Person2 :Fem "bi-seni!"],
+                         [:Plural :Person2 :Common "bā-sení̄-na!"]]
+                 }
+                {:label "beja_Re-VPrefNegJussive-dir"
+                 :note "RE#260"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Jussive}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Masc "bā-dí̄r-u"],
+                         [:Singular :Person1 :Fem "bā-dír̄-tu"],
+                         [:Singular :Person2 :Masc "bā-dí̄r-wa"],
+                         [:Singular :Person2 :Fem "bā-dí̄r-twi"],
+                         [:Singular :Person3 :Masc "bā-dí̄r-u"],
+                         [:Singular :Person3 :Fem "bā-dí̄r-tu"],
+                         [:Plural :Person1 :Masc "ba-dír-á-b-a"],
+                         [:Plural :Person1 :Fem "bā-dīr-á-t-a"],
+                         [:Plural :Person2 :Masc "bā-dīráb-āna"],
+                         [:Plural :Person2 :Fem "bā-dīrá̄t-āna"],
+                         [:Plural :Person3 :Masc "bā-dīr-á̄-ba"],
+                         [:Plural :Person3 :Fem "bā-dīr-á̄-ta"]]
+                 }
+                {:label "beja_Re-VPrefNegJussive-fedig"
+                 :note "RE#260"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :fedig,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Jussive}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Masc "bā-fadí̄g-u"],
+                         [:Singular :Person1 :Fem "bā-fadí̄g-tu"],
+                         [:Singular :Person2 :Masc "bā-fadíḡ-wa"],
+                         [:Singular :Person2 :Fem "bā-fadí̄g-twi"],
+                         [:Singular :Person3 :Masc "bā-fadí̄g-u"],
+                         [:Singular :Person3 :Fem "bā-fadí̄g-tu"],
+                         [:Plural :Person1 :Masc "bā-fadīg-á-b-a"],
+                         [:Plural :Person1 :Fem "ba-fadīg-á-t-a"],
+                         [:Plural :Person2 :Masc "bā-fadigá̄b-āna"],
+                         [:Plural :Person2 :Fem "bā-fadīgát-āna"],
+                         [:Plural :Person3 :Masc "bā-fadīg-á̄-b-a"],
+                         [:Plural :Person3 :Fem "bā-fadīg-á̄-t-a"]]
+                 }
+                {:label "beja_Re-VPrefNegJussive-kiri"
+                 :note "RE#260"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :kiri,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Jussive}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Masc "bā-karí̄-b-u"],
+                         [:Singular :Person1 :Fem "bā-karí̄-t-u"],
+                         [:Singular :Person2 :Masc "bā-karí̄-b-ua"],
+                         [:Singular :Person2 :Fem "ba-karí̄-t-wi"],
+                         [:Singular :Person3 :Masc "bā-karí̄-b-u"],
+                         [:Singular :Person3 :Fem "bā-karí̄-t-u"],
+                         [:Plural :Person1 :Masc "bā-karí̄-b-a"],
+                         [:Plural :Person1 :Fem "bā-karí-t-a"],
+                         [:Plural :Person2 :Masc "bā-karí-b-āna"],
+                         [:Plural :Person2 :Fem "bā-karí-t-āna"],
+                         [:Plural :Person3 :Masc "bā-karí̄-b-a"],
+                         [:Plural :Person3 :Fem "bā-karī-t-a"]]
+                 }
+                {:label "beja_Re-VPrefNegOptative-dir"
+                 :note "RE#264"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Optative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "bā-dí̄r-ē"],
+                         [:Singular :Person2 :Masc "bi-d-dí̄r-ē"],
+                         [:Singular :Person2 :Fem "bi-d-dí̄r-ē"],
+                         [:Singular :Person3 :Masc "bī-dí̄r-ē"],
+                         [:Singular :Person3 :Fem "bi-d-dí̄r-ē"],
+                         [:Plural :Person1 :Common "bi-n-dí̄r-ē"],
+                         [:Plural :Person2 :Common "bi-d-dí̄r-ē"],
+                         [:Plural :Person3 :Common "bi-dí̄r-n-ē"]]
+                 }
+                {:label "beja_Re-VPrefNegOptative-fedig"
+                 :note "RE#264"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :fedig,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Optative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "bā-fadí̄g-ē"],
+                         [:Singular :Person2 :Masc "bi-t-fadí̄g-ē"],
+                         [:Singular :Person2 :Fem "bi-t-fadí̄g-ē"],
+                         [:Singular :Person3 :Masc "bī-fadí̄g-ē"],
+                         [:Singular :Person3 :Fem "bi-t-fadí̄g-ē"],
+                         [:Plural :Person1 :Common "bi-n-fadí̄g-ē"],
+                         [:Plural :Person2 :Common "bi-t-fadí̄g-n-ē"],
+                         [:Plural :Person3 :Common "bī-fadí̄g-n-ē"]]
+                 }
+                {:label "beja_Re-VPrefNegOptative-kiri"
+                 :note "RE#264"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :kiri,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Optative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "bā-kary-é̄"],
+                         [:Singular :Person2 :Masc "bi-t-kary-é̄"],
+                         [:Singular :Person2 :Fem "bi-t-kary-é"],
+                         [:Singular :Person3 :Masc "bī-kary-é̄"],
+                         [:Singular :Person3 :Fem "bi-t-kary-é"],
+                         [:Plural :Person1 :Common "bi-n-kary-é"],
+                         [:Plural :Person2 :Common "bi-t-karī-n-ē"],
+                         [:Plural :Person3 :Common "bī-karí̄-n-ē"]]
+                 }
+                {:label "beja_Re-VPrefNegFut1-dir"
+                 :note "RE#251 :: Future tenses are formed with main verb participle derát-,fídgat- plus the perfect conjugated auxiliary yi- aff,ka+are/rib neg.; [here with rib]"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :dir,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Future1}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "derát a-ríb"],
+                         [:Singular :Person2 :Masc "derát tí-rib-a"],
+                         [:Singular :Person2 :Fem "derát tí-rib-i"],
+                         [:Singular :Person3 :Masc "derát e-ríb"],
+                         [:Singular :Person3 :Fem "derát te-ríb"],
+                         [:Plural :Person1 :Common "derát ne-ríb"],
+                         [:Plural :Person2 :Common "derát te-ríb-na"],
+                         [:Plural :Person3 :Common "derát e-ríib-na"]]
+                 }
+                {:label "beja_Re-VPrefPassStemForm"
+                 :note "RE#209-213"
+                 :common {:vmorphClass :DERVSTEMPASS
+                          :conjClass :Prefix,
+                          :derivedStem :M,
+                          :pos :Verb}
+                 :terms [[:lexeme :token-note :token],
+                         [:Hat "Common, getreten werden" "tō- atō’āt"],
+                         [:abik "Common, gehalten werden" "at- ad-abāk"],
+                         [:beHas "e goes_to a (#210), gewendet werden" "ad-be’ās"],
+                         [:bis "Common, begraben werden" "tō-bās"],
+                         [:delib "Common, gekauft werden" "ad-delāb"],
+                         [:dif "t assim and met. #211, gefarbt werden" "tō-dāf"],
+                         [:dir "Common, getotet werden" "tō-dār"],
+                         [:fedig "e goes_to a (#210), befreit werden" "at-fadāg"],
+                         [:ferik "at goes_to Ø #212, gegraben werden" "at-ferak̄ ~ ferāk"],
+                         [:gerib "at goes_to Ø #212, besigt werden" "at-garāb ~ gerāb"],
+                         [:gŭhar "Common, gestolen werden" "at-ughār"],
+                         [:kehan "e goes_to a (#210), geliebt werden" "at-kehān"],
+                         [:kesis "e goes_to a (#210), gewickelt werden" "at-kasās"],
+                         [:keti "e goes_to a (#210), gelegt werden" "at-katāy"],
+                         [:ketib "Common, geschriben werden" "at- / et-ketāb"],
+                         [:ketib "at goes_to Ø #212, geschriben werden" "at-katāb ~ ketāb"],
+                         [:sebib "t assim and met. #211, gesehen werden" "astabāb"],
+                         [:selif "t assim and met. #211, entlehnt werden" "astalāf"],
+                         [:serah "t assim and met. #211, begleitet werden" "astarāh"],
+                         [:sugud "t assim and met. #211, gewaschen werden" "astagŭād"],
+                         [:taH "t assim and met. #211, atō-tā’" "tō-"],
+                         [:tib "at goes_to Ø #212, gefullt sein" "atō-tāb ~ tāb"]]
+                 }
+                {:label "beja_Re-VPrefPerfectCopAn"
+                 :note "RE#306"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :COPULA,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-‘án"],
+                         [:Singular :Person2 :Masc "t-án-a"],
+                         [:Singular :Person2 :Fem "t-án-i"],
+                         [:Singular :Person3 :Masc "y-an"],
+                         [:Singular :Person3 :Fem "t-an"],
+                         [:Plural :Person1 :Common "n-an"],
+                         [:Plural :Person2 :Common "t-án-na"],
+                         [:Plural :Person3 :Common "y-án-na"]]
+                 }
+                {:label "beja_Re-VPrefPrefVsSuff-dir"
+                 :note "RE#308"
+                 :common {:vmorphClass :PrefVersusSuff
+                          :lexeme :dir,
+                          :pos :Verb}
+                 :terms [[:conjClass :tam :number :person :gender :token],
+                         [:Prefix :Perfect :Singular :Person1 :Common "a-dír"],
+                         [:Prefix :Perfect :Singular :Person2 :Masc "tí-dir-a"],
+                         [:Prefix :Perfect :Singular :Person2 :Fem "tí-dir-i"],
+                         [:Prefix :Perfect :Singular :Person3 :Masc "e-dír"],
+                         [:Prefix :Perfect :Singular :Person3 :Fem "te-dír"],
+                         [:Prefix :Present :Singular :Person1 :Common "a-n-dí̄r"],
+                         [:Prefix :Present :Singular :Person2 :Masc "té-n-dīr-a"],
+                         [:Prefix :Present :Singular :Person2 :Fem "té-n-dīr-i"],
+                         [:Prefix :Present :Singular :Person3 :Masc "e-n-dí̄r"],
+                         [:Prefix :Present :Singular :Person3 :Fem "te-n-dí̄r"],
+                         [:Suffix :Perfect :Singular :Person1 :Common "dir-á-n"],
+                         [:Suffix :Perfect :Singular :Person2 :Masc "dír-t-a[na"],
+                         [:Suffix :Perfect :Singular :Person2 :Fem "dír-t-a[n]i"],
+                         [:Suffix :Perfect :Singular :Person3 :Masc "dír-y-a[n"],
+                         [:Suffix :Perfect :Singular :Person3 :Fem "dír-t-a[n"],
+                         [:Suffix :Present :Singular :Person1 :Common "dír-a-ni"],
+                         [:Suffix :Present :Singular :Person2 :Masc "dir-te-níy-a"],
+                         [:Suffix :Present :Singular :Person2 :Fem "dir-te-ní̄"],
+                         [:Suffix :Present :Singular :Person3 :Masc "dir-í̄-ni"],
+                         [:Suffix :Present :Singular :Person3 :Fem "dir-tí-ni"]]
+                 }
+                {:label "beja_Re-VPrefPresent-copAn"
+                 :note "RE#306"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :COPULA,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘ani"],
+                         [:Singular :Person2 :Masc "te-níy-a"],
+                         [:Singular :Person2 :Fem "te-níy-I"],
+                         [:Singular :Person3 :Masc "yí-ni"],
+                         [:Singular :Person3 :Fem "tí-ni"],
+                         [:Plural :Person1 :Common "né̄-ni"],
+                         [:Plural :Person2 :Common "té-n-na"],
+                         [:Plural :Person3 :Common "yé-n-na"]]
+                 }
+                {:label "beja_Re-VPrefRecipStemForm"
+                 :note "RE#219"
+                 :common {:vmorphClass :DERVSTEMRECIP
+                          :conjClass :Prefix,
+                          :derivedStem :Reciprocal,
+                          :pos :Verb,
+                          :token-note "m + redup. verb"}
+                 :terms [[:lexeme :token-gloss :token],
+                         [:deHir "einander heiraten" "m-ded’ār"],
+                         [:dir "einander toten" "m-dedār"],
+                         [:fāyd "einander auslachen" "m-fefyād"],
+                         [:gelad "eineander friden geloben" "m-geglād"],
+                         [:guasir "einander belugen" "m-gŭgŭsār"],
+                         [:gŭhar "einander bestelen" "m-gŭgŭhār"],
+                         [:kehan "einander lieben" "m-kekhān"],
+                         [:ketib "einander schreiben" "m-kektāb"],
+                         [:ram "einander folgen" "mō-rerām"],
+                         [:rib "einander hassen" "mō-rerāb"],
+                         [:semit "einander beschmiren" "m-sesmāt"],
+                         [:tab "einander prugeln" "mō-tetāb"]]
+                 }
+                {:label "beja_Re-VPrefReflStemForm"
+                 :note "RE#214-216"
+                 :common {:vmorphClass :DERVSTEMREFL
+                          :conjClass :Prefix,
+                          :derivedStem :Reflexive,
+                          :pos :Verb}
+                 :terms [[:lexeme :token-note :token],
+                         [:am "no base form (#215), sich hinaufbegeben" "‘ām"],
+                         [:amit "Common, an sich nemen" "amāt"],
+                         [:berir "Common, sich ausbreiten" "berār"],
+                         [:debil "Common, sich zusammenrollen " "debāl"],
+                         [:debir "no base form (#215), verermen sich verludern" "debār"],
+                         [:derir "no base form (#215), die malzeit zu sich nemen" "derār #215"],
+                         [:fedig "Common, sich losbinden" "fedāg"],
+                         [:fedig "caus. of refl. #216, sich losbinden lassen" "as-fedāg #216"],
+                         [:fenin "Common, sich ausstrecken" "fenān"],
+                         [:feraH "no base form (#215), sich hinausbegeben" "ferā’"],
+                         [:feyak "caus. of refl. #216, sich auflasten lassen" "as-te-fayāk"],
+                         [:feyak "no base form (#215), tragen" "feyāk"],
+                         [:gedah "no base form (#215), herabsteigen" "gedāh"],
+                         [:hadah "hada, stammfurst werden durch erbfolge" "hadā"],
+                         [:hakab "no base form (#215), sich setzen" "hakāb"],
+                         [:hakaf "caus. of refl. #216, sich umarmen lassen" "as-te-hakāf"],
+                         [:hanig "Common, hanāg" "halāg"],
+                         [:kan "caus. of refl. #216, sich unterweisen lassen" "as-tō-kakān"],
+                         [:kuay "no base form (#215), sich ankleiden" "kuāy"],
+                         [:luw "Common, sich verbrennen" "lāu"],
+                         [:man "caus. of refl. #216, sich rasiren lassen" "asō-mān"],
+                         [:mekir "Common, sich beraten" "mekār"],
+                         [:nau "no base form (#215), sich entberungen unterziehen" "nāu"],
+                         [:negil "Common, sich auftun" "negāl"],
+                         [:ram "no base form (#215), sich anschliessen jemandem" "rām"],
+                         [:saH "no base form (#215), sich setzen" "sā’"],
+                         [:sebir "no base form (#215), sich fluchten" "sebār"],
+                         [:semit "Common, sich beschmiren" "semāt"],
+                         [:semit "caus. of refl. #216, sich beschmiren lassen" "as-semāt"]]
+                 }
+                {:label "beja_Re-VSuffAffCond-dur"
+                 :note "RE#340 :: note var in same paragraph w. duur-a'b ii-kety-e'k etc. "
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Conditional}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dūr-y-é̄k"],
+                         [:Singular :Person2 :Masc "dūr-ty-é̄k"],
+                         [:Singular :Person2 :Fem "dūr-ty-é̄k"],
+                         [:Singular :Person3 :Masc "dūr-y-é̄k"],
+                         [:Singular :Person3 :Fem "dūr-ty-é̄k"],
+                         [:Plural :Person1 :Common "dūr-ny-é̄k"],
+                         [:Plural :Person2 :Common "dūr-tīn-é̄k"],
+                         [:Plural :Person3 :Common "dūr-īn-é̄k"]]
+                 }
+                {:label "beja_Re-VSuffAffFuture1-dur"
+                 :note "RE#332"
+                 :common {:vmorphClass :Finite_Partila
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Future1}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-at yí’ani"],
+                         [:Singular :Person2 :Masc "dú̄r-at etníya"],
+                         [:Singular :Person2 :Fem "dú̄r-at etní̄"]]
+                 }
+                {:label "beja_Re-VSuffAffFuture2-dur"
+                 :note "RE#333"
+                 :common {:vmorphClass :FiniteCompound
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Future2}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-e á-n-di"],
+                         [:Singular :Person2 :Masc "dú̄r-e te-n-díy-a"],
+                         [:Singular :Person2 :Fem "dú̄r-e te-n-dí̄"],
+                         [:Singular :Person3 :Masc "dú̄r-e é-n-di"],
+                         [:Singular :Person3 :Fem "dú̄r-e té-n-di"],
+                         [:Plural :Person1 :Common "dú̄r-e ni-yád"],
+                         [:Plural :Person2 :Common "dú̄r-e ti-yád-na"],
+                         [:Plural :Person3 :Common "dú̄r-e i-yád-na"]]
+                 }
+                {:label "beja_Re-VSuffAffFuture3-dur"
+                 :note "RE#334"
+                 :common {:vmorphClass :FiniteCompound
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Future3}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-tī-b a-hanrí̄u"],
+                         [:Singular :Person2 :Masc "dú̄r-tī-b hanrí̄wa"],
+                         [:Singular :Person2 :Fem "dúr̄-tī-b hanrí̄wi"]]
+                 }
+                {:label "beja_Re-VSuffAffImprtv-dur"
+                 :note "RE#335"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person2 :Masc "dú̄r-a"],
+                         [:Singular :Person2 :Fem "dú̄r-i"],
+                         [:Plural :Person2 :Common "dú̄r-na"]]
+                 }
+                {:label "beja_Re-VSuffAffJussive-dur"
+                 :note "RE#336"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Jussive}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-at-é̄ni"],
+                         [:Singular :Person2 :Masc "dú̄r-at-a"],
+                         [:Singular :Person2 :Fem "dú̄r-at-i"],
+                         [:Singular :Person3 :Masc "ba-dú̄r-e"],
+                         [:Singular :Person3 :Fem "ba-dú̄r-áy-tu"],
+                         [:Plural :Person1 :Common "dūr-at-ené̄y"],
+                         [:Plural :Person2 :Common "dūr-át-na"],
+                         [:Plural :Person3 :Common "ba-dūr-í̄na"]]
+                 }
+                {:label "beja_Re-VSuffAffPerfect-dur"
+                 :note "RE#326"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-an"],
+                         [:Singular :Person2 :Masc "dú̄r-ta"],
+                         [:Singular :Person2 :Fem "dú̄r-tay"],
+                         [:Singular :Person3 :Masc "dú̄r-ya"],
+                         [:Singular :Person3 :Fem "dú̄r-ta"],
+                         [:Plural :Person1 :Common "dú̄r-na"],
+                         [:Plural :Person2 :Common "dūr-tá̄na"],
+                         [:Plural :Person3 :Common "dūr-yá̄na"]]
+                 }
+                {:label "beja_Re-VSuffAffPerfectDur-dur"
+                 :note "RE#328 :: also with fay"
+                 :common {:vmorphClass :Finite_Partial
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :PerfectDur}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-an í̄-he"],
+                         [:Singular :Person2 :Masc "dú̄r-ta ti-híy-a"],
+                         [:Singular :Person2 :Fem "dú̄r-tay tí̄-hī"]]
+                 }
+                {:label "beja_Re-VSuffAffPerfectRel-dur"
+                 :note "RE#337"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :PerfectRel}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dūr-an -é̄ (fem.- é̄t)"],
+                         [:Singular :Person2 :Masc "dūr-tan -é̄ (fem.- é̄t)"],
+                         [:Singular :Person2 :Fem "dūr-tan -é̄ (fem.- é̄t)"],
+                         [:Singular :Person3 :Masc "dūr-yan -é̄ (fem.- é̄t)"],
+                         [:Singular :Person3 :Fem "dūr-tan -é̄ (fem.- é̄t)"],
+                         [:Plural :Person1 :Common "dūr-nan -é̄ (fem.- é̄t)"],
+                         [:Plural :Person2 :Common "dūr-tān -é̄ (fem.- é̄t)"],
+                         [:Plural :Person3 :Common "dūr-yān -é̄ (fem.- é̄t)"]]
+                 }
+                {:label "beja_Re-VSuffAffPluperfect-dur"
+                 :note "RE#330"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Pluperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-e"],
+                         [:Singular :Person2 :Masc "dūr-té̄ya"],
+                         [:Singular :Person2 :Fem "dūr-té̄y"],
+                         [:Singular :Person3 :Masc "dú̄r-e"],
+                         [:Singular :Person3 :Fem "dú̄r-te"],
+                         [:Plural :Person1 :Common "dú̄r-ne"],
+                         [:Plural :Person2 :Common "dūr-tí̄na"],
+                         [:Plural :Person3 :Common "dūr-í̄n(a)"]]
+                 }
+                {:label "beja_Re-VSuffAffPresent-dur"
+                 :note "RE#326"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-ani"],
+                         [:Singular :Person2 :Masc "dūr-teníy-a"],
+                         [:Singular :Person2 :Fem "dūr-tení̄"],
+                         [:Singular :Person3 :Masc "dūr-í̄ni"],
+                         [:Singular :Person3 :Fem "dūr-tí̄ni"],
+                         [:Plural :Person1 :Common "dūr-né̄y"],
+                         [:Plural :Person2 :Common "dūr-té̄na"],
+                         [:Plural :Person3 :Common "dūr-é̄na"]]
+                 }
+                {:label "beja_Re-VSuffAffPresentDur-dur"
+                 :note "RE#328-329 :: durative present and perfect, pos and neg formed with perfect of main verb and pres-perf, pos-neg of hay or fay"
+                 :common {:vmorphClass :Finite_Partial
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :PresentDur}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-an"],
+                         [:Singular :Person2 :Masc "dú̄r-ta"],
+                         [:Singular :Person2 :Fem "dú̄r-tay"]]
+                 }
+                {:label "beja_Re-VSuffAffPresentRel-dur"
+                 :note "RE#337"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :PresentRel}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dūr-any -é̄ (fem.- é̄t)"],
+                         [:Singular :Person2 :Masc "dūr-teny -é̄ (fem.- é̄t)"],
+                         [:Singular :Person2 :Fem "dūr-teny -é̄ (fem.- é̄t)"],
+                         [:Singular :Person3 :Masc "dūr-iny -é̄ (fem.- é̄t)"],
+                         [:Singular :Person3 :Fem "dūr-tiny -é̄ (fem.- é̄t)"],
+                         [:Plural :Person1 :Common "dūr-nēy -é̄ (fem.- é̄t)"],
+                         [:Plural :Person2 :Common "dūr-té̄n -é̄ (fem.- é̄t)"],
+                         [:Plural :Person3 :Common "dūr-é̄n -é̄ (fem.- é̄t)"]]
+                 }
+                {:label "beja_Re-VSuffDervStemForm"
+                 :note "RE#325 :: [MAKE BETTER SYSTEMATIZATION OF R'S ANALYSIS OF DERIVED STEMS.] In Reinisch,causPass is termed causatives reflexive;some instances of passCaus are termed reciprocum;passCaus2 is causatives reciprocum."
+                 :common {:vmorphClass :DERVSTEMSUFF
+                          :conjClass :Suffix,
+                          :pos :Verb}
+                 :terms [[:derivedStem :derivedStemAug :lexeme :token],
+                         [:Base :Intensive :dab "dadab"],
+                         [:Base :Intensive :dib "didib"],
+                         [:Base :Intensive :guH "gugu’"],
+                         [:Base :Simple :abab "abāb"],
+                         [:Base :Simple :dab "dab"],
+                         [:M1 :Simple :abab "abāb-am"],
+                         [:M1 :Simple :kiloy "kilōy-im"],
+                         [:M1 :Simple :yak "yak-am"],
+                         [:M2 :Simple :men "menī-m-am"],
+                         [:MS1 :Simple :abab "abāb-s-am"],
+                         [:MS1 :Simple :gig "gīg-s-am"],
+                         [:MS1 :Simple :yewas "yewās-is-am"],
+                         [:MS1 :Simple :yewas "yewās-is-am"],
+                         [:MS2 :Simple :abab "abāb-s-is-am"],
+                         [:Reflexive :Simple :baski "baskī-t"],
+                         [:S1 :Intensive :dab "dadab-s"],
+                         [:S1 :Intensive :dib "didib-s"],
+                         [:S1 :Simple :abab "abāb-s"],
+                         [:S1 :Simple :dab "dab-s"],
+                         [:S1 :Simple :gas "gas-is"],
+                         [:S2 :Intensive :dab "dadab-s-is̄"],
+                         [:S2 :Intensive :dib "didib-s-is"],
+                         [:S2 :Simple :abab "abāb-is"],
+                         [:S2 :Simple :dab "dab-s-is"],
+                         [:SM :Simple :bal "bal-am-s"],
+                         [:SM :Simple :men "menī-m-s"]]
+                 }
+                {:label "beja_Re-VSuffNegFuture1-dur"
+                 :note "RE#332 :: also gives form with :rib "
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Future1}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-at kāré̄-an"],
+                         [:Singular :Person2 :Masc "dú̄r-at kāré̄-ta"],
+                         [:Singular :Person2 :Fem "dú̄r-at karé̄-tay"]]
+                 }
+                {:label "beja_Re-VSuffNegFuture2-dur"
+                 :note "RE#333"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Future2}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-e ká̄-di"],
+                         [:Singular :Person2 :Masc "dú̄r-e ki-d-díy-a"],
+                         [:Singular :Person2 :Fem "dú̄r-e ki-d-dí"],
+                         [:Singular :Person3 :Masc "dú̄r-e kī-di"],
+                         [:Singular :Person3 :Fem "dú̄r-e kí̄-d-di"],
+                         [:Plural :Person1 :Common "dú̄r-e kí-n-di"],
+                         [:Plural :Person2 :Common "dú̄r-e ki-d-dí̄-na"],
+                         [:Plural :Person3 :Common "dú̄r-e kī-dí̄-na"]]
+                 }
+                {:label "beja_Re-VSuffNegFuture3-dur"
+                 :note "RE#334"
+                 :common {:vmorphClass :FiniteCompound
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Future3}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-tī-b kā-harú̄"],
+                         [:Singular :Person2 :Masc "dú̄r-tī-b ki-t-háuwa"],
+                         [:Singular :Person2 :Fem "dú̄r-tī-b ki-t-háruwi"]]
+                 }
+                {:label "beja_Re-VSuffNegImprtv-dur"
+                 :note "RE#335"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person2 :Masc "bá-dūr-a"],
+                         [:Singular :Person2 :Fem "bí-dūr-i"],
+                         [:Plural :Person2 :Common "bā-dūr-á̄na"]]
+                 }
+                {:label "beja_Re-VSuffNegJussive-dur"
+                 :note "RE#336"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Jussive}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Masc "bā-dūr-áy-u"],
+                         [:Singular :Person1 :Fem "bā-dūr-áy-tu"],
+                         [:Singular :Person2 :Masc "bā-dūr-áy-wa"],
+                         [:Singular :Person2 :Fem "bā-dūr-áy-t-wi"],
+                         [:Singular :Person3 :Masc "bā-dūr-áy-u"],
+                         [:Singular :Person3 :Fem "bā-dūr-áy-tu"],
+                         [:Plural :Person1 :Masc "bā-dūr-áy-a"],
+                         [:Plural :Person1 :Fem "bā-dūr-áy-ta"],
+                         [:Plural :Person2 :Masc "bā-dūr-áy-āna"],
+                         [:Plural :Person2 :Fem "bā-dūr-áy-tāna"],
+                         [:Plural :Person3 :Masc "bā-dūr-áy-a"],
+                         [:Plural :Person3 :Fem "bā-dūr-áy-ta"]]
+                 }
+                {:label "beja_Re-VSuffNegPerfect-dur"
+                 :note "RE#327"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dūr-á̄-b ká̄-ke"],
+                         [:Singular :Person2 :Masc "dūr-á̄-b kí-t-ta"],
+                         [:Singular :Person2 :Fem "dūr-á̄-t kít-tay"],
+                         [:Singular :Person3 :Masc "dūr-á̄-b kí̄-ke"],
+                         [:Singular :Person3 :Fem "dūr-á̄-t kí-t-te"],
+                         [:Plural :Person1 :Common "dūr-á-b kí-n-ke"],
+                         [:Plural :Person2 :Common "dūr-á̄-b ki-t-té̄na"],
+                         [:Plural :Person3 :Common "dūr-á̄-b kī-ké̄na"]]
+                 }
+                {:label "beja_Re-VSuffNegPerfectDur-dur"
+                 :note "RE#329"
+                 :common {:vmorphClass :Finite_Partial
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :PerfectDur}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-an hāy-á̄-b ká̄ke"],
+                         [:Singular :Person2 :Masc "dú̄r-ta hāy-á̄-b kí-t-a"],
+                         [:Singular :Person2 :Fem "dú̄r-tay hāy-á-t kí-t-tay"]]
+                 }
+                {:label "beja_Re-VSuffNegPerfectRel-dur"
+                 :note "RE#338"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :PerfectRel}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "bā-dūr-y-é̄"],
+                         [:Singular :Person2 :Masc "bā-dūr-ty-é̄"],
+                         [:Singular :Person2 :Fem "bā-dūr-ty-é̄"],
+                         [:Singular :Person3 :Masc "bā-dūr-y-é̄"],
+                         [:Singular :Person3 :Fem "bā-dūr-ty-é̄"],
+                         [:Plural :Person1 :Common "bā-dūr-ny-é̄"],
+                         [:Plural :Person2 :Common "bā-dūr-tí̄n-ē"],
+                         [:Plural :Person3 :Common "bā-dūr-í̄n-ē"]]
+                 }
+                {:label "beja_Re-VSuffNegPresent-dur"
+                 :note "RE#327"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ka-dú̄r-an"],
+                         [:Singular :Person2 :Masc "ka-dú̄r-ta"],
+                         [:Singular :Person2 :Fem "ka-dú̄r-tay"],
+                         [:Singular :Person3 :Masc "ka-dú̄r-ya"],
+                         [:Singular :Person3 :Fem "ka-dú̄r-ta"],
+                         [:Plural :Person1 :Common "ka-dú̄r-na"],
+                         [:Plural :Person2 :Common "ka-dūr-tá̄na"],
+                         [:Plural :Person3 :Common "ka-dūr-yá̄na"]]
+                 }
+                {:label "beja_Re-VSuffNegPresentDur-dur"
+                 :note "RE#329"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :PresentDur}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "dú̄r-an kā-há̄y"],
+                         [:Singular :Person2 :Masc "dú̄r-ta ki-t-há̄y-a"],
+                         [:Singular :Person2 :Fem "dú̄r-tay ki-t-há̄y"]]
+                 }
+                {:label "beja_Re-VSuffNegPresentRel-dur"
+                 :note "RE#338"
+                 :common {:vmorphClass :Finite
+                          :conjClass :Suffix,
+                          :lexeme :dur,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :PresentRel}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "bā-dūray-é̄"],
+                         [:Singular :Person2 :Masc "bi-d-dūray-é̄"],
+                         [:Singular :Person2 :Fem "bi-d-dur̄ay-é̄"],
+                         [:Singular :Person3 :Masc "bī-dūray-é̄"],
+                         [:Singular :Person3 :Fem "bi-d-dūray-é"],
+                         [:Plural :Person1 :Common "bi-n-dūray-é̄"],
+                         [:Plural :Person2 :Common "bi-d-dūray-né̄"],
+                         [:Plural :Person3 :Common "bī-dūray-n-é̄"]]
+                 }
+                {:label "beja_Re-PInd"
+                 :note "RE#157;159"
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
+                          :proClass :Independent}
+                 :terms [[:case :number :person :gender :token],
+                         [:Object :Singular :Person1 :Common "ané̄-b "],
+                         [:Object :Singular :Person2 :Masc "baró̄k"],
+                         [:Object :Singular :Person2 :Fem "batṓk"],
+                         [:Object :Singular :Person3 :Masc "baró̄s"],
+                         [:Object :Singular :Person3 :Fem "bató̄s"],
+                         [:Object :Plural :Person1 :Common "henné̄-b"],
+                         [:Object :Plural :Person2 :Masc "baré̄k / baré̄kna"],
+                         [:Object :Plural :Person2 :Fem "baté̄k / baté̄kna"],
+                         [:Object :Plural :Person3 :Masc "baré̄s / baré̄sna"],
+                         [:Object :Plural :Person3 :Fem "baté̄s / baté̄sna"],
+                         [:Subject :Singular :Person1 :Common "aní̄ / aní"],
+                         [:Subject :Singular :Person2 :Masc "barú̄k"],
+                         [:Subject :Singular :Person2 :Fem "batú̄k"],
+                         [:Subject :Singular :Person3 :Masc "barú̄s"],
+                         [:Subject :Singular :Person3 :Fem "batú̄s"],
+                         [:Subject :Plural :Person1 :Common "hanán / hanín / hinín"],
+                         [:Subject :Plural :Person2 :Masc "bará̄k / bará̄kna "],
+                         [:Subject :Plural :Person2 :Fem "batá̄k / batá̄kna"],
+                         [:Subject :Plural :Person3 :Masc "bará̄s / bará̄sna"],
+                         [:Subject :Plural :Person3 :Fem "batá̄s / batá̄sna"]]
+                 }
+                {:label "beja_Re-PIndPoss"
+                 :note "RE#161"
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
+                          :proClass :IndependentPossessive}
+                 :terms [[:genHead :numHead :number :person :gender :token],
+                         [:H_Fem :H_Plural :Singular :Person1 :Common "aní"],
+                         [:H_Fem :H_Plural :Singular :Person2 :Masc "bar-i-tá̄k"],
+                         [:H_Fem :H_Plural :Singular :Person2 :Fem "bat-i-tá̄k"],
+                         [:H_Fem :H_Plural :Singular :Person3 :Masc "bar-i-tá̄s"],
+                         [:H_Fem :H_Plural :Singular :Person3 :Fem "bat-i-tās"],
+                         [:H_Fem :H_Plural :Plural :Person1 :Common "hanné̄ / hené̄"],
+                         [:H_Fem :H_Plural :Plural :Person2 :Masc "barē-tá̄kna"],
+                         [:H_Fem :H_Plural :Plural :Person2 :Fem "batē-tá̄kna"],
+                         [:H_Fem :H_Plural :Plural :Person3 :Masc "barē-tá̄sna"],
+                         [:H_Fem :H_Plural :Plural :Person3 :Fem "batē-tá̄sna"],
+                         [:H_Fem :H_Singular :Singular :Person1 :Common "an-í̄"],
+                         [:H_Fem :H_Singular :Singular :Person2 :Masc "bar-i-tú̄k"],
+                         [:H_Fem :H_Singular :Singular :Person2 :Fem "bat-i-tú̄̄k"],
+                         [:H_Fem :H_Singular :Singular :Person3 :Masc "bar-i-tú̄s"],
+                         [:H_Fem :H_Singular :Singular :Person3 :Fem "bat-i-tú̄s"],
+                         [:H_Fem :H_Singular :Plural :Person1 :Common "hann-ē / hené̄"],
+                         [:H_Fem :H_Singular :Plural :Person2 :Masc "barē-tú̄kna"],
+                         [:H_Fem :H_Singular :Plural :Person2 :Fem "batē-tú̄kna"],
+                         [:H_Fem :H_Singular :Plural :Person3 :Masc "barē-tú̄sna"],
+                         [:H_Fem :H_Singular :Plural :Person3 :Fem "batē-tú̄sna"],
+                         [:H_Masc :H_Plural :Singular :Person1 :Common "aní̄"],
+                         [:H_Masc :H_Plural :Singular :Person2 :Masc "bar-y-á̄k"],
+                         [:H_Masc :H_Plural :Singular :Person2 :Fem "bat-y-á̄k"],
+                         [:H_Masc :H_Plural :Singular :Person3 :Masc "bar-y-á̄s"],
+                         [:H_Masc :H_Plural :Singular :Person3 :Fem "bat-y-ās"],
+                         [:H_Masc :H_Plural :Plural :Person1 :Common "hanné̄ / hené̄"],
+                         [:H_Masc :H_Plural :Plural :Person2 :Masc "barē-yá̄kna"],
+                         [:H_Masc :H_Plural :Plural :Person2 :Fem "batē-yá̄kna"],
+                         [:H_Masc :H_Plural :Plural :Person3 :Masc "barē-yá̄sna"],
+                         [:H_Masc :H_Plural :Plural :Person3 :Fem "batē-yá̄sna"],
+                         [:H_Masc :H_Singular :Singular :Person1 :Common "aní̄"],
+                         [:H_Masc :H_Singular :Singular :Person2 :Masc "bar-y-ú̄k"],
+                         [:H_Masc :H_Singular :Singular :Person2 :Fem "bat-y-ú̄k"],
+                         [:H_Masc :H_Singular :Singular :Person3 :Masc "bar-y-ú̄s"],
+                         [:H_Masc :H_Singular :Singular :Person3 :Fem "bat-y-ú̄s"],
+                         [:H_Masc :H_Singular :Plural :Person1 :Common "hann-é̄ / hen-é̄"],
+                         [:H_Masc :H_Singular :Plural :Person2 :Masc "barē-yú̄kna"],
+                         [:H_Masc :H_Singular :Plural :Person2 :Fem "batē-yú̄kna"],
+                         [:H_Masc :H_Singular :Plural :Person3 :Masc "barē-yú̄sna"],
+                         [:H_Masc :H_Singular :Plural :Person3 :Fem "batē-yú̄sna"]]
+                 }
+                {:label "beja_Re-PObjSuff"
+                 :note "RE#174"
+                 :common {:pos :Pronoun, 
+                          :pmorphClass :ProMorph,
+                          :proClass :ObjectSuffix}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Masc "-hé̄ba"],
+                         [:Singular :Person1 :Fem "-hé̄bi"],
+                         [:Singular :Person1 :Common "-hēb / -hīb"],
+                         [:Singular :Person2 :Masc "-hó̄ka"],
+                         [:Singular :Person2 :Fem "-hó̄ki"],
+                         [:Singular :Person2 :Common "-hōk"],
+                         [:Singular :Person3 :Common "-hōs"],
+                         [:Plural :Person1 :Common "-hōn"],
+                         [:Plural :Person2 :Common "-hó̄kna"],
+                         [:Plural :Person3 :Common "-hó̄sna"]]
+                 }
+                {:label "beja_Re-PPossCop"
+                 :note "RE#165"
+                 :common {:proClass :PossCop,
+                          :pmorphClass :ProMorph,
+                          :pos :Pronoun}
+                 :terms [[:genHead :numHead :number :person :gender :token],
+                         [:H_Fem :H_Plural :Singular :Person1 :Common "tá̄-mak aní̄-t-a"],
+                         [:H_Fem :H_Plural :Singular :Person2 :Masc "tá̄-mak barité̄k-ta"],
+                         [:H_Fem :H_Plural :Singular :Person2 :Fem "tá̄-mak batité̄k-ta"],
+                         [:H_Fem :H_Plural :Singular :Person3 :Masc "tá̄-mak barité̄s-ta"],
+                         [:H_Fem :H_Plural :Singular :Person3 :Fem "tá̄-mak batité̄s-ta"],
+                         [:H_Fem :H_Plural :Plural :Person1 :Common "tá̄-mak hanné̄-ta"],
+                         [:H_Fem :H_Plural :Plural :Person2 :Masc "tá̄-mak barēté̄knā-ta"],
+                         [:H_Fem :H_Plural :Plural :Person2 :Fem "tá̄-mak batēté̄knā-ta"],
+                         [:H_Fem :H_Plural :Plural :Person3 :Masc "tá̄-mak barēté̄snā-ta"],
+                         [:H_Fem :H_Plural :Plural :Person3 :Fem "tá̄-mak batēté̄sna-ta"],
+                         [:H_Fem :H_Singular :Singular :Person1 :Common "tū-mé̄k aní̄-tu"],
+                         [:H_Fem :H_Singular :Singular :Person2 :Masc "tū-mé̄k baritó̄k-tu"],
+                         [:H_Fem :H_Singular :Singular :Person2 :Fem "tū-mé̄k batitó̄k-tu"],
+                         [:H_Fem :H_Singular :Singular :Person3 :Masc "tū-mé̄k baritó̄s-tu"],
+                         [:H_Fem :H_Singular :Singular :Person3 :Fem "tū-mé̄k batitó̄s-tu"],
+                         [:H_Fem :H_Singular :Plural :Person1 :Common "tū-mé̄k hanné̄-tu"],
+                         [:H_Fem :H_Singular :Plural :Person2 :Masc "tū-mé̄k barētó̄̄knā-tu"],
+                         [:H_Fem :H_Singular :Plural :Person2 :Fem "tū-mé̄k batētó̄knā-tu"],
+                         [:H_Fem :H_Singular :Plural :Person3 :Fem "tū-mé̄k batētó̄snā-tu"],
+                         [:H_Fem :Singular :Plural :Person3 :Masc "tū-mé̄k barētó̄snā-tu"],
+                         [:H_Masc :H_Plural :Singular :Person1 :Common "á-mak aní̄-b-a"],
+                         [:H_Masc :H_Plural :Singular :Person2 :Masc "á-mak baryé̄k-a"],
+                         [:H_Masc :H_Plural :Singular :Person2 :Fem "á-mak batyé̄k-a"],
+                         [:H_Masc :H_Plural :Singular :Person3 :Masc "á-mak baryé̄s-a"],
+                         [:H_Masc :H_Plural :Singular :Person3 :Fem "á-mak batyé̄s-a"],
+                         [:H_Masc :H_Plural :Plural :Person1 :Common "á-mak hannē-b-a"],
+                         [:H_Masc :H_Plural :Plural :Person2 :Masc "á-mak barēyé̄knā-ya"],
+                         [:H_Masc :H_Plural :Plural :Person2 :Fem "á-mak batēyé̄knā-ya"],
+                         [:H_Masc :H_Plural :Plural :Person3 :Masc "á-mak barēyé̄snā-ya"],
+                         [:H_Masc :H_Plural :Plural :Person3 :Fem "á-mak batēyé̄snā-ya"],
+                         [:H_Masc :H_Singular :Singular :Person1 :Common "ū-mé̄k aní̄-b-u"],
+                         [:H_Masc :H_Singular :Singular :Person2 :Masc "ū-mé̄k baryó̄k-u"],
+                         [:H_Masc :H_Singular :Singular :Person2 :Fem "ū-mé̄k batyó̄k-u"],
+                         [:H_Masc :H_Singular :Singular :Person3 :Fem "ū-mé̄k batyó̄s-u"],
+                         [:H_Masc :H_Singular :Plural :Person1 :Common "ū-mé̄k hanné̄-b-u"],
+                         [:H_Masc :H_Singular :Plural :Person2 :Masc "ū-mé̄k bar̄yó̄knā-yu"],
+                         [:H_Masc :H_Singular :Plural :Person2 :Fem "ū-mé̄k batēyó̄knā-yu"],
+                         [:H_Masc :H_Singular :Plural :Person3 :Masc "ū-mé̄k barēyó̄snā-yu"],
+                         [:H_Masc :H_Singular :Plural :Person3 :Fem "ū-mé̄k batēyó̄snā-yu"],
+                         [:H_Masc :Singular :Singular :Person3 :Masc "ū-mé̄k baryó̄s-u"]]
+                 }
+                {:label "beja_Re-PPossSuff"
+                 :note "RE#168-73"
+                 :common {:proClass :PossSuff,
+                          :pmorphClass :ProMorph,
+                          :pos :Pronoun}
+                 :terms [[:genHead :numHead :stemClass :number :person :gender :token],
+                         [:H_Fem :H_Plural :_NA :Singular :Person1 :Common "-tā"],
+                         [:H_Fem :H_Plural :_NA :Singular :Person2 :Masc "-tá̄ka"],
+                         [:H_Fem :H_Plural :_NA :Singular :Person2 :Fem "-tá̄ki"],
+                         [:H_Fem :H_Plural :_NA :Singular :Person3 :Common "-tās"],
+                         [:H_Fem :H_Plural :_NA :Plural :Person1 :Common "-tān"],
+                         [:H_Fem :H_Plural :_NA :Plural :Person2 :Common "-tá̄kna"],
+                         [:H_Fem :H_Plural :_NA :Plural :Person3 :Common "-tá̄sna"],
+                         [:H_Fem :H_Singular :_NA :Singular :Person1 :Common "-tū"],
+                         [:H_Fem :H_Singular :_NA :Singular :Person2 :Masc "-tú̄ka / -tūk"],
+                         [:H_Fem :H_Singular :_NA :Singular :Person2 :Fem "-tú̄ki / -tūk"],
+                         [:H_Fem :H_Singular :_NA :Singular :Person3 :Common "-tūs"],
+                         [:H_Fem :H_Singular :_NA :Plural :Person1 :Common "-tūn"],
+                         [:H_Fem :H_Singular :_NA :Plural :Person2 :Common "-tú̄kna"],
+                         [:H_Fem :H_Singular :_NA :Plural :Person3 :Common "-tú̄sna"],
+                         [:H_Masc :H_Plural :C_final :Singular :Person1 :Common "-ā"],
+                         [:H_Masc :H_Plural :C_final :Singular :Person2 :Masc "-á̄ka"],
+                         [:H_Masc :H_Plural :C_final :Singular :Person2 :Fem "-á̄ki"],
+                         [:H_Masc :H_Plural :C_final :Singular :Person3 :Common "-ās"],
+                         [:H_Masc :H_Plural :C_final :Plural :Person1 :Common "-ān"],
+                         [:H_Masc :H_Plural :C_final :Plural :Person2 :Common "-á̄kna"],
+                         [:H_Masc :H_Plural :C_final :Plural :Person3 :Common "-á̄sna"],
+                         [:H_Masc :H_Plural :V_final :Singular :Person1 :Common "-yā"],
+                         [:H_Masc :H_Plural :V_final :Singular :Person2 :Masc "-yá̄ka"],
+                         [:H_Masc :H_Plural :V_final :Singular :Person2 :Fem "-yá̄ki"],
+                         [:H_Masc :H_Plural :V_final :Singular :Person3 :Common "-yās"],
+                         [:H_Masc :H_Plural :V_final :Plural :Person1 :Common "-yān"],
+                         [:H_Masc :H_Plural :V_final :Plural :Person2 :Common "-yá̄kna"],
+                         [:H_Masc :H_Plural :V_final :Plural :Person3 :Common "-yá̄sna"],
+                         [:H_Masc :H_Singular :C_final :Singular :Person1 :Common "-ū"],
+                         [:H_Masc :H_Singular :C_final :Singular :Person2 :Masc "-ú̄ka / -ūk"],
+                         [:H_Masc :H_Singular :C_final :Singular :Person2 :Fem "-ú̄ki / -ūk"],
+                         [:H_Masc :H_Singular :C_final :Singular :Person3 :Common "-ūs"],
+                         [:H_Masc :H_Singular :C_final :Plural :Person1 :Common "-ūn"],
+                         [:H_Masc :H_Singular :C_final :Plural :Person2 :Common "-ú̄kna"],
+                         [:H_Masc :H_Singular :C_final :Plural :Person3 :Common "-ú̄sna"],
+                         [:H_Masc :H_Singular :V_final :Singular :Person1 :Common "-yū"],
+                         [:H_Masc :H_Singular :V_final :Singular :Person2 :Masc "-yú̄ka / -yūk"],
+                         [:H_Masc :H_Singular :V_final :Singular :Person2 :Fem "-yuki / -yūk"],
+                         [:H_Masc :H_Singular :V_final :Singular :Person3 :Common "-yūs"],
+                         [:H_Masc :H_Singular :V_final :Plural :Person1 :Common "-yūn"],
+                         [:H_Masc :H_Singular :V_final :Plural :Person2 :Common "-yú̄kna"],
+                         [:H_Masc :H_Singular :V_final :Plural :Person3 :Common "-yú̄sna"]]
+                 }
+                ]
+ }
+
+
