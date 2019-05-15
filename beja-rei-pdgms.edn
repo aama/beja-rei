@@ -160,7 +160,7 @@
            :tʔāb   {:pos :Verb, :lemma "tʔāb", :gloss "prügeln", },
            :yak   {:pos :Verb, :lemma "yak-am", :gloss "", },
            :yewas   {:pos :Verb, :lemma "yewās-is-am", :gloss "", },
-           :yi   {:pos :Verb, :lemma "yi'- ~ i'-", :gloss "be", },
+           :yi   {:pos :Verb, :lemma "yi'- ~ i'-", :gloss "come", },
            :šedid   {:pos :Verb, :lemma "ši-šadid", :gloss "abschalen", },
            }
  :termclusters [
@@ -601,7 +601,7 @@
                 {:label "beja_Re-VPrefAffPres-yi"
                  :note "RE#249 :: used as aux with Future1"
                  :common {:vmorphClass :Finite
-                          :conjClass :Prefix,
+                          :conjClass :Suffix,
                           :lexeme :yi,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -619,7 +619,7 @@
                 {:label "beja_Re-VPrefAffPres-yi"
                  :note "RE#249 :: used as aux with Future1"
                  :common {:vmorphClass :Finite
-                          :conjClass :Prefix,
+                          :conjClass :Suffix,
                           :lexeme :yi,
                           :polarity :Negative,
                           :pos :Verb,
@@ -1867,7 +1867,7 @@
                          [:Suffix :Present :Singular :Person3 :Fem "dir-tí-ni"]]
                  }
                 {:label "beja_Re-VPrefPresent-copAn"
-                 :note "RE#306"
+                 :note "RE#306d  "
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :COPULA,
