@@ -1,11 +1,21 @@
 {
   "lang": "beja-rei",
-  "subfamily": "Beja",
+  "subfamily": "cushitic beja",
   "lgpref": "bre",
-  "datasource": "Reinisch1893; section references abbreviated in :note as RE#",
-  "datasourceNotes": "Reinisch uses the terms ZZperfectZZ and ZZplusquamperfectZZ for what are here termed ZZPastZZ and ZZAoristZZ",
+  "datasource": "Reinisch, Leo. 1893. Die Beḍauye-sprache in Nordost-Afrika .. Wien: In commission bei F. Tempsky, 1893.(Sitzungsberichte der Kais. akademie der wissenschaften in Wien. Philosophisch-historische classe. bd. 128, abh. 3, 7 ; bd. 130, abh. 7 ; bd. 131, abh. 3) [LR1893#]",
+  "datasourceNotes": "Reinisch uses the terms 'perfect' and 'plusquamperfect' for what are here termed 'Past' and 'Aorist'",
+  "transcription": { 
+    "Consonants": {
+      "general": "cf. transcription table",
+      "note": [
+        "'' = ''",
+        "'' = '' "
+        ]},
+    "Vowels": {
+      "inventory": "i e a o u; ī ē ā ō ū ",
+    "Accent ": "'v v̄' unaccented; 'v́, v̄́' accented"}},
   "geodemoURL": "http://www.ethnologue.com/language/bej",
-  "geodemoTXT": "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. One of the Southern-most representative of Beja is documented here, that of the Beni-Amer in Barka, in what is now Eritrea, studied by Leo Reinisch (1893) in what is, along with AlmkvistZZs study of the Bishari, one of the earliest monographs dedicated to a variety of Beja.",
+  "geodemoTXT": "cushitic beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. One of the Southern-most representative of cushitic beja is documented here, that of the Beni-Amer in Barka, in what is now Eritrea, studied by Leo Reinisch (1893) in what is, along with Almkvist's study of the Bishari, one of the earliest monographs dedicated to a variety of cushitic beja.",
   "schemata": {
   "case": [
     "Object",
@@ -52,11 +62,9 @@
   "gender": [
     "Common",
     "Fem",
-    "Masc",
-    "Person2"
+    "Masc"
   ],
   "lexeme": [
-    "COPULA",
     "Had",
     "Hasis",
     "Hat",
@@ -75,7 +83,6 @@
     "bedin",
     "berir",
     "beʔan",
-    "beʔān",
     "bis",
     "dab",
     "dabar",
@@ -87,7 +94,6 @@
     "dedir",
     "delib",
     "derir",
-    "di",
     "dib",
     "dif",
     "dih",
@@ -118,8 +124,6 @@
     "hakab",
     "hakaf",
     "hanig",
-    "har",
-    "harid",
     "hay",
     "herid",
     "is",
@@ -130,7 +134,6 @@
     "keti",
     "ketib",
     "kiloy",
-    "kiri",
     "ktbArb",
     "ktbHeb",
     "kuay",
@@ -198,8 +201,7 @@
   ],
   "numHead": [
     "H_Plural",
-    "H_Singular",
-    "Singular"
+    "H_Singular"
   ],
   "number": [
     "Plural",
@@ -213,8 +215,7 @@
   ],
   "polarity": [
     "Affirmative",
-    "Negative",
-    "NegativeEmphatic"
+    "Negative"
   ],
   "pos": [
     "Pronoun",
@@ -224,8 +225,7 @@
     "Independent",
     "IndependentPossessive",
     "ObjectSuffix",
-    "PossCop",
-    "PossSuff"
+    "PossCop"
   ],
   "rootClass": [
     "CC",
@@ -238,17 +238,10 @@
   "specPdgms": [
     "Compound"
   ],
-  "stemClass": [
-    "C_final",
-    "V_final"
-  ],
   "tam": [
     "Conditional",
-    "ConditionalPerfect",
-    "ConditionalPresent",
     "Future1",
     "Future2",
-    "Future2Var",
     "Future3",
     "Imperative",
     "Imperfect",
@@ -263,7 +256,7 @@
     "PresentRel"
   ]
 },
-  "lexemes": {
+"lexemes": {
   "COPULA": {
     "pos": "Verb",
     "lemma": "Copula",
@@ -283,6 +276,11 @@
     "pos": "Verb",
     "lemma": "sō-‘at",
     "gloss": "treten"
+  },
+  "abab": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
   },
   "abik": {
     "pos": "Verb",
@@ -314,6 +312,16 @@
     "lemma": "mē-bdān",
     "gloss": "vergessen"
   },
+  "bal": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "baski": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
   "beHas": {
     "pos": "Verb",
     "lemma": "ad-be’ās",
@@ -323,6 +331,16 @@
     "pos": "Verb",
     "lemma": "m-badāh",
     "gloss": "bezeugen"
+  },
+  "beHin": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "bedin": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
   },
   "berir": {
     "pos": "Verb",
@@ -339,10 +357,25 @@
     "lemma": "bis",
     "gloss": "bury"
   },
+  "dab": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
   "dabar": {
     "pos": "Verb",
     "lemma": "m-dabār",
     "gloss": "verarmen"
+  },
+  "dah": {
+    "pos": "Verb",
+    "lemma": "dāh",
+    "gloss": "be small"
+  },
+  "dar": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
   },
   "deHir": {
     "pos": "Verb",
@@ -354,10 +387,30 @@
     "lemma": "debil",
     "gloss": "wickeln"
   },
+  "debir": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "dedir": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
   "delib": {
     "pos": "Verb",
     "lemma": "se-dalib",
     "gloss": "kaufen"
+  },
+  "derir": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "dib": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
   },
   "dif": {
     "pos": "Verb",
@@ -374,7 +427,7 @@
     "lemma": "dāh",
     "gloss": "be small"
   },
-  "dūr": {
+  "dur": {
     "pos": "Verb",
     "lemma": "dūr",
     "gloss": "visit"
@@ -386,7 +439,7 @@
   },
   "fayd": {
     "pos": "Verb",
-    "lemma": "m-fefyād",
+    "lemma": "mē-fyād",
     "gloss": "lachen"
   },
   "fedig": {
@@ -394,20 +447,50 @@
     "lemma": "fedig",
     "gloss": "release"
   },
+  "felaH": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
   "fenin": {
     "pos": "Verb",
     "lemma": "fenān",
     "gloss": "stricken"
+  },
+  "feraH": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
   },
   "ferik": {
     "pos": "Verb",
     "lemma": "at-ferak̄ ~ ferāk",
     "gloss": "graben"
   },
-  "fayd": {
+  "feyak": {
     "pos": "Verb",
-    "lemma": "mē-fyād",
-    "gloss": "lachen"
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "fāyd": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "gas": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "ged": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "gedah": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
   },
   "gelad": {
     "pos": "Verb",
@@ -424,6 +507,16 @@
     "lemma": "gid",
     "gloss": "throw"
   },
+  "gig": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "guH": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
   "guaH": {
     "pos": "Verb",
     "lemma": "sō-gŭa’",
@@ -434,20 +527,40 @@
     "lemma": "m-gŭgŭsār",
     "gloss": "lugen"
   },
-  "gwʔad": {
-    "pos": "Verb",
-    "lemma": "gwʔad",
-    "gloss": "bewachen"
-  },
   "guhar": {
     "pos": "Verb",
     "lemma": "s-ughar",
     "gloss": "stelen"
   },
+  "gwʔad": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "gwʔad": {
+    "pos": "Verb",
+    "lemma": "gwʔad",
+    "gloss": "bewachen"
+  },
   "hada": {
     "pos": "Verb",
     "lemma": "hadā",
     "gloss": "(zum fürsten erwählt werden)"
+  },
+  "hadah": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "hakab": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "hakaf": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
   },
   "hanig": {
     "pos": "Verb",
@@ -463,6 +576,11 @@
     "pos": "Verb",
     "lemma": "hāy",
     "gloss": "be (Aux)"
+  },
+  "herid": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
   },
   "is": {
     "pos": "Verb",
@@ -504,6 +622,26 @@
     "lemma": "kiri",
     "gloss": "rent"
   },
+  "kiloy": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "ktbArb": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "ktbHeb": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "kuay": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
   "kut": {
     "pos": "Verb",
     "lemma": "sō--kut",
@@ -519,6 +657,11 @@
     "lemma": "kwesi",
     "gloss": "count"
   },
+  "lau": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
   "lemid": {
     "pos": "Verb",
     "lemma": "se-lamid",
@@ -528,6 +671,11 @@
     "pos": "Verb",
     "lemma": "lāu",
     "gloss": "brennen"
+  },
+  "man": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
   },
   "mekir": {
     "pos": "Verb",
@@ -548,6 +696,16 @@
     "pos": "Noun",
     "lemma": "mēk",
     "gloss": "donkey"
+  },
+  "min": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "nau": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
   },
   "negil": {
     "pos": "Verb",
@@ -574,10 +732,15 @@
     "lemma": "mō-rerāb",
     "gloss": "not want, refuse"
   },
-  "saH": {
+  "sāʔ": {
     "pos": "Verb",
     "lemma": "sāʔ",
-    "gloss": "(pass) sich setzen"
+    "gloss": "(pass) sit down"
+  },
+  "san": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
   },
   "sawi": {
     "pos": "Verb",
@@ -588,6 +751,11 @@
     "pos": "Verb",
     "lemma": "ši-š’ag",
     "gloss": "auf hangen"
+  },
+  "sebar": {
+    "pos": "Verb",
+    "lemma": "sebar",
+    "gloss": "flee"
   },
   "sebib": {
     "pos": "Verb",
@@ -614,6 +782,11 @@
     "lemma": "sehag",
     "gloss": "sweep"
   },
+  "selif": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
   "selit": {
     "pos": "Verb",
     "lemma": "si-salit",
@@ -639,30 +812,60 @@
     "lemma": "serid",
     "gloss": "warsagen"
   },
+  "siʔ": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
   "sugud": {
     "pos": "Verb",
     "lemma": "ši-šagŭd",
     "gloss": "waschen"
   },
-  "tab": {
+  "taH": {
     "pos": "Verb",
-    "lemma": "mō-tetāb",
-    "gloss": "prugeln"
+    "lemma": "[x]",
+    "gloss": "[y]"
   },
   "tib": {
     "pos": "Verb",
     "lemma": "sō-tib",
     "gloss": "fullen"
   },
-  "tʔaʔ": {
+  "ṭāb": {
     "pos": "Verb",
-    "lemma": "tʔaʔ",
+    "lemma": "ṭāb",
     "gloss": "beat"
   },
-  "tʔāb": {
+  "ṭa?": {
     "pos": "Verb",
-    "lemma": "tʔāb",
-    "gloss": "prügeln"
+    "lemma": "ṭa'",
+    "gloss": "strike"
+  },
+  "taH": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "tib": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "yak": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "yewas": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
+  "yi": {
+    "pos": "Verb",
+    "lemma": "yi",
+    "gloss": "come [used as aux. of future]"
   }
 },
   "pdgmPropOrder": ["pos", "proClass", "morphClass", "conjClass", "rootClass",  "conjSubType", "lexeme", "derivedStem", "specPdgms", "tam", "polarity"],
@@ -672,30 +875,43 @@
     "note": "RE#157;159",
     "common": {
       "pos": "Pronoun",
-      "proClass": "Independent"
+      "proClass": "Independent",
+      "case": "Object"
     },
     "terms": [
-      ["case" ,"number" ,"person" ,"gender" ,"token"],
-      ["Object" ,"Singular" ,"Person1" ,"Common" ,"ané̄-b "],
-      ["Object" ,"Singular" ,"Person2" ,"Masc" ,"baró̄k"],
-      ["Object" ,"Singular" ,"Person2" ,"Fem" ,"batṓk"],
-      ["Object" ,"Singular" ,"Person3" ,"Masc" ,"baró̄s"],
-      ["Object" ,"Singular" ,"Person3" ,"Fem" ,"bató̄s"],
-      ["Object" ,"Plural" ,"Person1" ,"Common" ,"henné̄-b"],
-      ["Object" ,"Plural" ,"Person2" ,"Masc" ,"baré̄k / baré̄kna"],
-      ["Object" ,"Plural" ,"Person2" ,"Fem" ,"baté̄k / baté̄kna"],
-      ["Object" ,"Plural" ,"Person3" ,"Masc" ,"baré̄s / baré̄sna"],
-      ["Object" ,"Plural" ,"Person3" ,"Fem" ,"baté̄s / baté̄sna"],
-      ["Subject" ,"Singular" ,"Person1" ,"Common" ,"aní̄ / aní"],
-      ["Subject" ,"Singular" ,"Person2" ,"Masc" ,"barú̄k"],
-      ["Subject" ,"Singular" ,"Person2" ,"Fem" ,"batú̄k"],
-      ["Subject" ,"Singular" ,"Person3" ,"Masc" ,"barú̄s"],
-      ["Subject" ,"Singular" ,"Person3" ,"Fem" ,"batú̄s"],
-      ["Subject" ,"Plural" ,"Person1" ,"Common" ,"hanán / hanín / hinín"],
-      ["Subject" ,"Plural" ,"Person2" ,"Masc" ,"bará̄k / bará̄kna "],
-      ["Subject" ,"Plural" ,"Person2" ,"Fem" ,"batá̄k / batá̄kna"],
-      ["Subject" ,"Plural" ,"Person3" ,"Masc" ,"bará̄s / bará̄sna"],
-      ["Subject" ,"Plural" ,"Person3" ,"Fem" ,"batá̄s / batá̄sna"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ané̄-b "],
+      ["Singular" ,"Person2" ,"Masc" ,"baró̄k"],
+      ["Singular" ,"Person2" ,"Fem" ,"batṓk"],
+      ["Singular" ,"Person3" ,"Masc" ,"baró̄s"],
+      ["Singular" ,"Person3" ,"Fem" ,"bató̄s"],
+      ["Plural" ,"Person1" ,"Common" ,"henné̄-b"],
+      ["Plural" ,"Person2" ,"Masc" ,"baré̄k / baré̄kna"],
+      ["Plural" ,"Person2" ,"Fem" ,"baté̄k / baté̄kna"],
+      ["Plural" ,"Person3" ,"Masc" ,"baré̄s / baré̄sna"],
+      ["Plural" ,"Person3" ,"Fem" ,"baté̄s / baté̄sna"]
+    ]
+  },
+  {
+    "label": "bre-PronounIndependent",
+    "note": "RE#157;159",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Independent",
+      "case": "Subject"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"aní̄ / aní"],
+      ["Singular" ,"Person2" ,"Masc" ,"barú̄k"],
+      ["Singular" ,"Person2" ,"Fem" ,"batú̄k"],
+      ["Singular" ,"Person3" ,"Masc" ,"barú̄s"],
+      ["Singular" ,"Person3" ,"Fem" ,"batú̄s"],
+      ["Plural" ,"Person1" ,"Common" ,"hanán / hanín / hinín"],
+      ["Plural" ,"Person2" ,"Masc" ,"bará̄k / bará̄kna "],
+      ["Plural" ,"Person2" ,"Fem" ,"batá̄k / batá̄kna"],
+      ["Plural" ,"Person3" ,"Masc" ,"bará̄s / bará̄sna"],
+      ["Plural" ,"Person3" ,"Fem" ,"batá̄s / batá̄sna"]
     ]
   },
   {
@@ -703,50 +919,91 @@
     "note": "RE#161",
     "common": {
       "pos": "Pronoun",
-      "proClass": "IndependentPossessive"
+      "proClass": "IndependentPossessive",
+      "genHead": "H_Fem",
+      "numHead": "H_Plural"
     },
     "terms": [
-      ["genHead" ,"numHead" ,"number" ,"person" ,"gender" ,"token"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person1" ,"Common" ,"aní"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person2" ,"Masc" ,"bar-i-tá̄k"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person2" ,"Fem" ,"bat-i-tá̄k"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person3" ,"Masc" ,"bar-i-tá̄s"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person3" ,"Fem" ,"bat-i-tās"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person1" ,"Common" ,"hanné̄ / hené̄"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person2" ,"Masc" ,"barē-tá̄kna"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person2" ,"Fem" ,"batē-tá̄kna"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person3" ,"Masc" ,"barē-tá̄sna"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person3" ,"Fem" ,"batē-tá̄sna"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person1" ,"Common" ,"an-í̄"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person2" ,"Masc" ,"bar-i-tú̄k"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person2" ,"Fem" ,"bat-i-tú̄̄k"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person3" ,"Masc" ,"bar-i-tú̄s"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person3" ,"Fem" ,"bat-i-tú̄s"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person1" ,"Common" ,"hann-ē / hené̄"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person2" ,"Masc" ,"barē-tú̄kna"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person2" ,"Fem" ,"batē-tú̄kna"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person3" ,"Masc" ,"barē-tú̄sna"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person3" ,"Fem" ,"batē-tú̄sna"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person1" ,"Common" ,"aní̄"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person2" ,"Masc" ,"bar-y-á̄k"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person2" ,"Fem" ,"bat-y-á̄k"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person3" ,"Masc" ,"bar-y-á̄s"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person3" ,"Fem" ,"bat-y-ās"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person1" ,"Common" ,"hanné̄ / hené̄"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person2" ,"Masc" ,"barē-yá̄kna"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person2" ,"Fem" ,"batē-yá̄kna"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person3" ,"Masc" ,"barē-yá̄sna"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person3" ,"Fem" ,"batē-yá̄sna"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person1" ,"Common" ,"aní̄"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person2" ,"Masc" ,"bar-y-ú̄k"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person2" ,"Fem" ,"bat-y-ú̄k"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person3" ,"Masc" ,"bar-y-ú̄s"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person3" ,"Fem" ,"bat-y-ú̄s"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person1" ,"Common" ,"hann-é̄ / hen-é̄"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person2" ,"Masc" ,"barē-yú̄kna"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person2" ,"Fem" ,"batē-yú̄kna"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person3" ,"Masc" ,"barē-yú̄sna"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person3" ,"Fem" ,"batē-yú̄sna"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"aní"],
+      ["Singular" ,"Person2" ,"Masc" ,"bar-i-tá̄k"],
+      ["Singular" ,"Person2" ,"Fem" ,"bat-i-tá̄k"],
+      ["Singular" ,"Person3" ,"Masc" ,"bar-i-tá̄s"],
+      ["Singular" ,"Person3" ,"Fem" ,"bat-i-tās"],
+      ["Plural" ,"Person1" ,"Common" ,"hanné̄ / hené̄"],
+      ["Plural" ,"Person2" ,"Masc" ,"barē-tá̄kna"],
+      ["Plural" ,"Person2" ,"Fem" ,"batē-tá̄kna"],
+      ["Plural" ,"Person3" ,"Masc" ,"barē-tá̄sna"],
+      ["Plural" ,"Person3" ,"Fem" ,"batē-tá̄sna"]
+    ]
+  },
+  {
+    "label": "bre-PronounIndependentPossessive",
+    "note": "RE#161",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "IndependentPossessive",
+      "genHead": "H_Fem",
+      "numHead": "H_Singular"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an-í̄"],
+      ["Singular" ,"Person2" ,"Masc" ,"bar-i-tú̄k"],
+      ["Singular" ,"Person2" ,"Fem" ,"bat-i-tú̄̄k"],
+      ["Singular" ,"Person3" ,"Masc" ,"bar-i-tú̄s"],
+      ["Singular" ,"Person3" ,"Fem" ,"bat-i-tú̄s"],
+      ["Plural" ,"Person1" ,"Common" ,"hann-ē / hené̄"],
+      ["Plural" ,"Person2" ,"Masc" ,"barē-tú̄kna"],
+      ["Plural" ,"Person2" ,"Fem" ,"batē-tú̄kna"],
+      ["Plural" ,"Person3" ,"Masc" ,"barē-tú̄sna"],
+      ["Plural" ,"Person3" ,"Fem" ,"batē-tú̄sna"]
+    ]
+  },
+  {
+    "label": "bre-PronounIndependentPossessive",
+    "note": "RE#161",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "IndependentPossessive",
+      "genHead": "H_Masc",
+      "numHead": "H_Plural"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"aní̄"],
+      ["Singular" ,"Person2" ,"Masc" ,"bar-y-á̄k"],
+      ["Singular" ,"Person2" ,"Fem" ,"bat-y-á̄k"],
+      ["Singular" ,"Person3" ,"Masc" ,"bar-y-á̄s"],
+      ["Singular" ,"Person3" ,"Fem" ,"bat-y-ās"],
+      ["Plural" ,"Person1" ,"Common" ,"hanné̄ / hené̄"],
+      ["Plural" ,"Person2" ,"Masc" ,"barē-yá̄kna"],
+      ["Plural" ,"Person2" ,"Fem" ,"batē-yá̄kna"],
+      ["Plural" ,"Person3" ,"Masc" ,"barē-yá̄sna"],
+      ["Plural" ,"Person3" ,"Fem" ,"batē-yá̄sna"]
+    ]
+  },
+  {
+    "label": "bre-PronounIndependentPossessive",
+    "note": "RE#161",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "IndependentPossessive",
+      "genHead": "H_Masc",
+      "numHead": "H_Singular"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"aní̄"],
+      ["Singular" ,"Person2" ,"Masc" ,"bar-y-ú̄k"],
+      ["Singular" ,"Person2" ,"Fem" ,"bat-y-ú̄k"],
+      ["Singular" ,"Person3" ,"Masc" ,"bar-y-ú̄s"],
+      ["Singular" ,"Person3" ,"Fem" ,"bat-y-ú̄s"],
+      ["Plural" ,"Person1" ,"Common" ,"hann-é̄ / hen-é̄"],
+      ["Plural" ,"Person2" ,"Masc" ,"barē-yú̄kna"],
+      ["Plural" ,"Person2" ,"Fem" ,"batē-yú̄kna"],
+      ["Plural" ,"Person3" ,"Masc" ,"barē-yú̄sna"],
+      ["Plural" ,"Person3" ,"Fem" ,"batē-yú̄sna"]
     ]
   },
   {
@@ -775,833 +1032,91 @@
     "note": "RE#165",
     "common": {
       "pos": "Pronoun",
-      "proClass": "PossCop"
+      "proClass": "PossCop",
+      "genHead": "H_Fem",
+      "numHead": "H_Plural"
     },
     "terms": [
-      ["genHead" ,"numHead" ,"number" ,"person" ,"gender" ,"token"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person1" ,"Common" ,"tá̄-mak aní̄-t-a"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person2" ,"Masc" ,"tá̄-mak barité̄k-ta"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person2" ,"Fem" ,"tá̄-mak batité̄k-ta"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person3" ,"Masc" ,"tá̄-mak barité̄s-ta"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person3" ,"Fem" ,"tá̄-mak batité̄s-ta"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person1" ,"Common" ,"tá̄-mak hanné̄-ta"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person2" ,"Masc" ,"tá̄-mak barēté̄knā-ta"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person2" ,"Fem" ,"tá̄-mak batēté̄knā-ta"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person3" ,"Masc" ,"tá̄-mak barēté̄snā-ta"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person3" ,"Fem" ,"tá̄-mak batēté̄sna-ta"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person1" ,"Common" ,"tū-mé̄k aní̄-tu"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person2" ,"Masc" ,"tū-mé̄k baritó̄k-tu"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person2" ,"Fem" ,"tū-mé̄k batitó̄k-tu"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person3" ,"Masc" ,"tū-mé̄k baritó̄s-tu"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person3" ,"Fem" ,"tū-mé̄k batitó̄s-tu"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person1" ,"Common" ,"tū-mé̄k hanné̄-tu"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person2" ,"Masc" ,"tū-mé̄k barētó̄̄knā-tu"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person2" ,"Fem" ,"tū-mé̄k batētó̄knā-tu"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person3" ,"Fem" ,"tū-mé̄k batētó̄snā-tu"],
-      ["H_Fem" ,"Singular" ,"Plural" ,"Person3" ,"Masc" ,"tū-mé̄k barētó̄snā-tu"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person1" ,"Common" ,"á-mak aní̄-b-a"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person2" ,"Masc" ,"á-mak baryé̄k-a"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person2" ,"Fem" ,"á-mak batyé̄k-a"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person3" ,"Masc" ,"á-mak baryé̄s-a"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person3" ,"Fem" ,"á-mak batyé̄s-a"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person1" ,"Common" ,"á-mak hannē-b-a"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person2" ,"Masc" ,"á-mak barēyé̄knā-ya"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person2" ,"Fem" ,"á-mak batēyé̄knā-ya"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person3" ,"Masc" ,"á-mak barēyé̄snā-ya"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person3" ,"Fem" ,"á-mak batēyé̄snā-ya"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person1" ,"Common" ,"ū-mé̄k aní̄-b-u"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person2" ,"Masc" ,"ū-mé̄k baryó̄k-u"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person2" ,"Fem" ,"ū-mé̄k batyó̄k-u"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person3" ,"Fem" ,"ū-mé̄k batyó̄s-u"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person1" ,"Common" ,"ū-mé̄k hanné̄-b-u"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person2" ,"Masc" ,"ū-mé̄k bar̄yó̄knā-yu"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person2" ,"Fem" ,"ū-mé̄k batēyó̄knā-yu"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person3" ,"Masc" ,"ū-mé̄k barēyó̄snā-yu"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person3" ,"Fem" ,"ū-mé̄k batēyó̄snā-yu"],
-      ["H_Masc" ,"Singular" ,"Singular" ,"Person3" ,"Masc" ,"ū-mé̄k baryó̄s-u"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"tá̄-mak aní̄-t-a"],
+      ["Singular" ,"Person2" ,"Masc" ,"tá̄-mak barité̄k-ta"],
+      ["Singular" ,"Person2" ,"Fem" ,"tá̄-mak batité̄k-ta"],
+      ["Singular" ,"Person3" ,"Masc" ,"tá̄-mak barité̄s-ta"],
+      ["Singular" ,"Person3" ,"Fem" ,"tá̄-mak batité̄s-ta"],
+      ["Plural" ,"Person1" ,"Common" ,"tá̄-mak hanné̄-ta"],
+      ["Plural" ,"Person2" ,"Masc" ,"tá̄-mak barēté̄knā-ta"],
+      ["Plural" ,"Person2" ,"Fem" ,"tá̄-mak batēté̄knā-ta"],
+      ["Plural" ,"Person3" ,"Masc" ,"tá̄-mak barēté̄snā-ta"],
+      ["Plural" ,"Person3" ,"Fem" ,"tá̄-mak batēté̄sna-ta"]
     ]
   },
   {
-    "label": "bre-PronounPossSuff",
-    "note": "RE#168-73",
+    "label": "bre-PronounPossCop",
+    "note": "RE#165",
     "common": {
       "pos": "Pronoun",
-      "proClass": "PossSuff"
-    },
-    "terms": [
-      ["genHead" ,"numHead" ,"stemClass" ,"number" ,"person" ,"gender" ,"token"],
-      ["H_Fem" ,"H_Plural" ,"__" ,"Singular" ,"Person1" ,"Common" ,"-tā"],
-      ["H_Fem" ,"H_Plural" ,"__" ,"Singular" ,"Person2" ,"Masc" ,"-tá̄ka"],
-      ["H_Fem" ,"H_Plural" ,"__" ,"Singular" ,"Person2" ,"Fem" ,"-tá̄ki"],
-      ["H_Fem" ,"H_Plural" ,"__" ,"Singular" ,"Person3" ,"Common" ,"-tās"],
-      ["H_Fem" ,"H_Plural" ,"__" ,"Plural" ,"Person1" ,"Common" ,"-tān"],
-      ["H_Fem" ,"H_Plural" ,"__" ,"Plural" ,"Person2" ,"Common" ,"-tá̄kna"],
-      ["H_Fem" ,"H_Plural" ,"__" ,"Plural" ,"Person3" ,"Common" ,"-tá̄sna"],
-      ["H_Fem" ,"H_Singular" ,"__" ,"Singular" ,"Person1" ,"Common" ,"-tū"],
-      ["H_Fem" ,"H_Singular" ,"__" ,"Singular" ,"Person2" ,"Masc" ,"-tú̄ka / -tūk"],
-      ["H_Fem" ,"H_Singular" ,"__" ,"Singular" ,"Person2" ,"Fem" ,"-tú̄ki / -tūk"],
-      ["H_Fem" ,"H_Singular" ,"__" ,"Singular" ,"Person3" ,"Common" ,"-tūs"],
-      ["H_Fem" ,"H_Singular" ,"__" ,"Plural" ,"Person1" ,"Common" ,"-tūn"],
-      ["H_Fem" ,"H_Singular" ,"__" ,"Plural" ,"Person2" ,"Common" ,"-tú̄kna"],
-      ["H_Fem" ,"H_Singular" ,"__" ,"Plural" ,"Person3" ,"Common" ,"-tú̄sna"],
-      ["H_Masc" ,"H_Plural" ,"C_final" ,"Singular" ,"Person1" ,"Common" ,"-ā"],
-      ["H_Masc" ,"H_Plural" ,"C_final" ,"Singular" ,"Person2" ,"Masc" ,"-á̄ka"],
-      ["H_Masc" ,"H_Plural" ,"C_final" ,"Singular" ,"Person2" ,"Fem" ,"-á̄ki"],
-      ["H_Masc" ,"H_Plural" ,"C_final" ,"Singular" ,"Person3" ,"Common" ,"-ās"],
-      ["H_Masc" ,"H_Plural" ,"C_final" ,"Plural" ,"Person1" ,"Common" ,"-ān"],
-      ["H_Masc" ,"H_Plural" ,"C_final" ,"Plural" ,"Person2" ,"Common" ,"-á̄kna"],
-      ["H_Masc" ,"H_Plural" ,"C_final" ,"Plural" ,"Person3" ,"Common" ,"-á̄sna"],
-      ["H_Masc" ,"H_Plural" ,"V_final" ,"Singular" ,"Person1" ,"Common" ,"-yā"],
-      ["H_Masc" ,"H_Plural" ,"V_final" ,"Singular" ,"Person2" ,"Masc" ,"-yá̄ka"],
-      ["H_Masc" ,"H_Plural" ,"V_final" ,"Singular" ,"Person2" ,"Fem" ,"-yá̄ki"],
-      ["H_Masc" ,"H_Plural" ,"V_final" ,"Singular" ,"Person3" ,"Common" ,"-yās"],
-      ["H_Masc" ,"H_Plural" ,"V_final" ,"Plural" ,"Person1" ,"Common" ,"-yān"],
-      ["H_Masc" ,"H_Plural" ,"V_final" ,"Plural" ,"Person2" ,"Common" ,"-yá̄kna"],
-      ["H_Masc" ,"H_Plural" ,"V_final" ,"Plural" ,"Person3" ,"Common" ,"-yá̄sna"],
-      ["H_Masc" ,"H_Singular" ,"C_final" ,"Singular" ,"Person1" ,"Common" ,"-ū"],
-      ["H_Masc" ,"H_Singular" ,"C_final" ,"Singular" ,"Person2" ,"Masc" ,"-ú̄ka / -ūk"],
-      ["H_Masc" ,"H_Singular" ,"C_final" ,"Singular" ,"Person2" ,"Fem" ,"-ú̄ki / -ūk"],
-      ["H_Masc" ,"H_Singular" ,"C_final" ,"Singular" ,"Person3" ,"Common" ,"-ūs"],
-      ["H_Masc" ,"H_Singular" ,"C_final" ,"Plural" ,"Person1" ,"Common" ,"-ūn"],
-      ["H_Masc" ,"H_Singular" ,"C_final" ,"Plural" ,"Person2" ,"Common" ,"-ú̄kna"],
-      ["H_Masc" ,"H_Singular" ,"C_final" ,"Plural" ,"Person3" ,"Common" ,"-ú̄sna"],
-      ["H_Masc" ,"H_Singular" ,"V_final" ,"Singular" ,"Person1" ,"Common" ,"-yū"],
-      ["H_Masc" ,"H_Singular" ,"V_final" ,"Singular" ,"Person2" ,"Masc" ,"-yú̄ka / -yūk"],
-      ["H_Masc" ,"H_Singular" ,"V_final" ,"Singular" ,"Person2" ,"Fem" ,"-yuki / -yūk"],
-      ["H_Masc" ,"H_Singular" ,"V_final" ,"Singular" ,"Person3" ,"Common" ,"-yūs"],
-      ["H_Masc" ,"H_Singular" ,"V_final" ,"Plural" ,"Person1" ,"Common" ,"-yūn"],
-      ["H_Masc" ,"H_Singular" ,"V_final" ,"Plural" ,"Person2" ,"Common" ,"-yú̄kna"],
-      ["H_Masc" ,"H_Singular" ,"V_final" ,"Plural" ,"Person3" ,"Common" ,"-yú̄sna"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-COPULA-ConditionalPerfect",
-    "note": "RE#306",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "COPULA",
-      "pos": "Verb",
-      "tam": "ConditionalPerfect"
+      "proClass": "PossCop",
+      "genHead": "H_Fem",
+      "numHead": "H_Singular"
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"‘an-é̄k"],
-      ["Singular" ,"Person2" ,"Masc" ,"t-an-é̄k"],
-      ["Singular" ,"Person2" ,"Fem" ,"t-an-é̄k"],
-      ["Singular" ,"Person3" ,"Masc" ,"y-an-é̄k"],
-      ["Singular" ,"Person3" ,"Fem" ,"t-an-é̄k"],
-      ["Plural" ,"Person1" ,"Common" ,"n-an-é̄k"],
-      ["Plural" ,"Person2" ,"Common" ,"t-ān-é̄k"],
-      ["Plural" ,"Person3" ,"Common" ,"y-ān-é̄k"]
+      ["Singular" ,"Person1" ,"Common" ,"tū-mé̄k aní̄-tu"],
+      ["Singular" ,"Person2" ,"Masc" ,"tū-mé̄k baritó̄k-tu"],
+      ["Singular" ,"Person2" ,"Fem" ,"tū-mé̄k batitó̄k-tu"],
+      ["Singular" ,"Person3" ,"Masc" ,"tū-mé̄k baritó̄s-tu"],
+      ["Singular" ,"Person3" ,"Fem" ,"tū-mé̄k batitó̄s-tu"],
+      ["Plural" ,"Person1" ,"Common" ,"tū-mé̄k hanné̄-tu"],
+      ["Plural" ,"Person2" ,"Masc" ,"tū-mé̄k barētó̄̄knā-tu"],
+      ["Plural" ,"Person2" ,"Fem" ,"tū-mé̄k batētó̄knā-tu"],
+      ["Plural" ,"Person3" ,"Fem" ,"tū-mé̄k batētó̄snā-tu"],
+      ["Plural" ,"Person3" ,"Masc" ,"tū-mé̄k barētó̄snā-tu"]
     ]
   },
   {
-    "label": "bre-VerbPrefix-COPULA-ConditionalPresent",
-    "note": "RE#306",
+    "label": "bre-PronounPossCop",
+    "note": "RE#165",
     "common": {
-      "conjClass": "Prefix",
-      "lexeme": "COPULA",
-      "pos": "Verb",
-      "tam": "ConditionalPresent"
+      "pos": "Pronoun",
+      "proClass": "PossCop",
+      "genHead": "H_Masc",
+      "numHead": "H_Plural"
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"‘any-é̄k"],
-      ["Singular" ,"Person2" ,"Masc" ,"te-ny-é̄k"],
-      ["Singular" ,"Person2" ,"Fem" ,"te-ny-é̄k"],
-      ["Singular" ,"Person3" ,"Masc" ,"e-ny-é̄k"],
-      ["Singular" ,"Person3" ,"Fem" ,"te-ny-é̄k"],
-      ["Plural" ,"Person1" ,"Common" ,"ne-ny-é̄k"],
-      ["Plural" ,"Person2" ,"Common" ,"te-n-é̄k"],
-      ["Plural" ,"Person3" ,"Common" ,"e-n-é̄k"]
+      ["Singular" ,"Person1" ,"Common" ,"á-mak aní̄-b-a"],
+      ["Singular" ,"Person2" ,"Masc" ,"á-mak baryé̄k-a"],
+      ["Singular" ,"Person2" ,"Fem" ,"á-mak batyé̄k-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-mak baryé̄s-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-mak batyé̄s-a"],
+      ["Plural" ,"Person1" ,"Common" ,"á-mak hannē-b-a"],
+      ["Plural" ,"Person2" ,"Masc" ,"á-mak barēyé̄knā-ya"],
+      ["Plural" ,"Person2" ,"Fem" ,"á-mak batēyé̄knā-ya"],
+      ["Plural" ,"Person3" ,"Masc" ,"á-mak barēyé̄snā-ya"],
+      ["Plural" ,"Person3" ,"Fem" ,"á-mak batēyé̄snā-ya"]
     ]
   },
   {
-    "label": "bre-VerbPrefix-COPULA-Perfect",
-    "note": "RE#306",
+    "label": "bre-PronounPossCop",
+    "note": "RE#165",
     "common": {
-      "conjClass": "Prefix",
-      "lexeme": "COPULA",
-      "pos": "Verb",
-      "tam": "Perfect"
+      "pos": "Pronoun",
+      "proClass": "PossCop",
+      "genHead": "H_Masc",
+      "numHead": "H_Singular"
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"a-‘án"],
-      ["Singular" ,"Person2" ,"Masc" ,"t-án-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"t-án-i"],
-      ["Singular" ,"Person3" ,"Masc" ,"y-an"],
-      ["Singular" ,"Person3" ,"Fem" ,"t-an"],
-      ["Plural" ,"Person1" ,"Common" ,"n-an"],
-      ["Plural" ,"Person2" ,"Common" ,"t-án-na"],
-      ["Plural" ,"Person3" ,"Common" ,"y-án-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-COPULA-Present",
-    "note": "RE#306d  ",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "COPULA",
-      "pos": "Verb",
-      "tam": "Present"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"á-‘ani"],
-      ["Singular" ,"Person2" ,"Masc" ,"te-níy-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"te-níy-I"],
-      ["Singular" ,"Person3" ,"Masc" ,"yí-ni"],
-      ["Singular" ,"Person3" ,"Fem" ,"tí-ni"],
-      ["Plural" ,"Person1" ,"Common" ,"né̄-ni"],
-      ["Plural" ,"Person2" ,"Common" ,"té-n-na"],
-      ["Plural" ,"Person3" ,"Common" ,"yé-n-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-di-PresentAffirmative",
-    "note": "RE#252 :: used as aux with Future2",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "di",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Present"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"á-n-di"],
-      ["Singular" ,"Person2" ,"Masc" ,"te-n-díy-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"te-n-dí̄"],
-      ["Singular" ,"Person3" ,"Masc" ,"é-n-di"],
-      ["Singular" ,"Person3" ,"Fem" ,"té-n-di"],
-      ["Plural" ,"Person1" ,"Common" ,"ni-yád"],
-      ["Plural" ,"Person2" ,"Common" ,"ti-yád-na"],
-      ["Plural" ,"Person3" ,"Common" ,"i-yád-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-dir-CompoundFuture1Affirmative",
-    "note": "RE#249 :: Future tenses are formed with main verb participle derát-,fídgat- plus a perfect conjugated auxiliary yi- aff,ka+are/rib neg.",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "dir",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Future1",
-      "specPdgms": "Compound"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"derát yí-, í’-ani"],
-      ["Singular" ,"Person2" ,"Masc" ,"derát ē-tníy-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"derát é̄-tnī"],
-      ["Singular" ,"Person3" ,"Masc" ,"derát é̄-nī"],
-      ["Singular" ,"Person3" ,"Fem" ,"derát é̄-tnī"],
-      ["Plural" ,"Person1" ,"Common" ,"derát ē-né̄y"],
-      ["Plural" ,"Person2" ,"Common" ,"derát ē-té̄na"],
-      ["Plural" ,"Person3" ,"Common" ,"derát é̄-na, I’-é̄n"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-dir-CompoundFuture1NegativeEmphatic",
-    "note": "RE#251 :: Future tenses are formed with main verb participle derát-,fídgat- plus a conjugated auxiliary yi- aff,ka+are/rib neg.; [here with rib",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "dir",
-      "polarity": "NegativeEmphatic",
-      "pos": "Verb",
-      "tam": "Future1",
-      "specPdgms": "Compound"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"derát a-ríib"],
-      ["Singular" ,"Person2" ,"Masc" ,"derát tí-rib-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"derát tí-rib-i"],
-      ["Singular" ,"Person3" ,"Masc" ,"derát e-ríb"],
-      ["Singular" ,"Person3" ,"Fem" ,"derát te-ríb"],
-      ["Plural" ,"Person1" ,"Common" ,"derát ne-ríb"],
-      ["Plural" ,"Person2" ,"Common" ,"derát te-ríb-na"],
-      ["Plural" ,"Person3" ,"Common" ,"derát e-ríib-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-dir-CompoundFuture2Affirmative",
-    "note": "RE#252 ::  Future2 formed with inflected aux di say and 1st pers. sg. plusperf of main verb,lit. I will kill",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "dir",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Future2",
-      "specPdgms": "Compound"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"e-dar á-n-di"],
-      ["Singular" ,"Person2" ,"Masc" ,"e-dar te-n-díy-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"e-dar te-n-dí̄"],
-      ["Singular" ,"Person3" ,"Masc" ,"e-dar é-n-di"],
-      ["Singular" ,"Person3" ,"Fem" ,"e-dar té-n-di"],
-      ["Plural" ,"Person1" ,"Common" ,"e-dar ni-yád"],
-      ["Plural" ,"Person2" ,"Common" ,"e-dar ti-yád-na"],
-      ["Plural" ,"Person3" ,"Common" ,"e-dar i-yád-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-dir-CompoundFuture2Negative",
-    "note": "RE#252 :: Future2 formed with inflected aux di say and 1st pers. sg. plusperf of main verb,lit. I will kill they say. (Future2Var allows 1st pers pl plusperf of main verb for plural subjects.)",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "dir",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Future2",
-      "specPdgms": "Compound"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"e-dar ká̄-di"],
-      ["Singular" ,"Person2" ,"Masc" ,"e-dar ki-d-díy-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"e-dar ki-d-dí"],
-      ["Singular" ,"Person3" ,"Masc" ,"e-dar kī-di"],
-      ["Singular" ,"Person3" ,"Fem" ,"e-dar kí̄-d-di"],
-      ["Plural" ,"Person1" ,"Common" ,"e-dar kí-n-di"],
-      ["Plural" ,"Person2" ,"Common" ,"e-dar ki-d-dí̄-na"],
-      ["Plural" ,"Person3" ,"Common" ,"e-dar kī-dí̄-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-dir-CompoundFuture2VarAffirmative",
-    "note": "RE#252 :: Future2 formed with inflected aux di say and 1st pers. sg. plusperf of main verb,lit. I will kill they say. (Future2Var allows 1st pers pl plusperf of main verb for plural subjects.)[Not clear from #252 of Future2Var also possible in plural.]",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "dir",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Future2Var",
-      "specPdgms": "Compound"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Plural" ,"Person1" ,"Common" ,"ne-fadíg ni-yád"],
-      ["Plural" ,"Person2" ,"Common" ,"ne-fadíg ti-yád-na"],
-      ["Plural" ,"Person3" ,"Common" ,"ne-fadíg i-yád-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-dir-Future1Negative",
-    "note": "RE#251 :: Future tenses are formed with main verb participle derát-,fídgat- plus the perfect conjugated auxiliary yi- aff,ka+are/rib neg.; [here with rib]",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "dir",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Future1"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"derát a-ríb"],
-      ["Singular" ,"Person2" ,"Masc" ,"derát tí-rib-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"derát tí-rib-i"],
-      ["Singular" ,"Person3" ,"Masc" ,"derát e-ríb"],
-      ["Singular" ,"Person3" ,"Fem" ,"derát te-ríb"],
-      ["Plural" ,"Person1" ,"Common" ,"derát ne-ríb"],
-      ["Plural" ,"Person2" ,"Common" ,"derát te-ríb-na"],
-      ["Plural" ,"Person3" ,"Common" ,"derát e-ríib-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-dir-ImperativeAffirmative",
-    "note": "RE#255",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "dir",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Imperative"
-    },
-    "terms": [
-      ["number" ,"gender" ,"token"],
-      ["Singular" ,"Person2" ,"Masc" ,"dír-a!"],
-      ["Singular" ,"Person2" ,"Fem" ,"dír-i!"],
-      ["Plural" ,"Person2" ,"Common" ,"dír-na!"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-dir-ImperativeNegative",
-    "note": "RE#256",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "dir",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Imperative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person2" ,"Masc" ,"bá-dīr-a!"],
-      ["Singular" ,"Person2" ,"Fem" ,"bí-dīr-i!"],
-      ["Plural" ,"Person2" ,"Common" ,"bā-dí̄r-na!"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-dir-JussiveAffirmative",
-    "note": "RE#257",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "dir",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Jussive"
-    },
-    "terms": [
-      ["lexeme" ,"number" ,"person" ,"gender" ,"token"],
-      ["dir" ,"Singular" ,"Person1" ,"Common" ,"der-at-é̄ni"],
-      ["dir" ,"Singular" ,"Person2" ,"Masc" ,"dír-at-a"],
-      ["dir" ,"Singular" ,"Person2" ,"Fem" ,"dír-at-i"],
-      ["dir" ,"Singular" ,"Person3" ,"Masc" ,"ba-‘e-dá̄r"],
-      ["dir" ,"Singular" ,"Person3" ,"Fem" ,"ba-te-dá̄r"],
-      ["dir" ,"Plural" ,"Person1" ,"Common" ,"dir-at-ēné̄y"],
-      ["dir" ,"Plural" ,"Person2" ,"Common" ,"der-át-na"],
-      ["dir" ,"Plural" ,"Person3" ,"Common" ,"ba-‘e-dá̄r-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-dir-JussiveNegative",
-    "note": "RE#260",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "dir",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Jussive"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Masc" ,"bā-dí̄r-u"],
-      ["Singular" ,"Person1" ,"Fem" ,"bā-dír̄-tu"],
-      ["Singular" ,"Person2" ,"Masc" ,"bā-dí̄r-wa"],
-      ["Singular" ,"Person2" ,"Fem" ,"bā-dí̄r-twi"],
-      ["Singular" ,"Person3" ,"Masc" ,"bā-dí̄r-u"],
-      ["Singular" ,"Person3" ,"Fem" ,"bā-dí̄r-tu"],
-      ["Plural" ,"Person1" ,"Masc" ,"ba-dír-á-b-a"],
-      ["Plural" ,"Person1" ,"Fem" ,"bā-dīr-á-t-a"],
-      ["Plural" ,"Person2" ,"Masc" ,"bā-dīráb-āna"],
-      ["Plural" ,"Person2" ,"Fem" ,"bā-dīrá̄t-āna"],
-      ["Plural" ,"Person3" ,"Masc" ,"bā-dīr-á̄-ba"],
-      ["Plural" ,"Person3" ,"Fem" ,"bā-dīr-á̄-ta"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-dir-OptativeAffirmative",
-    "note": "RE#263",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "dir",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Optative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"i-dar-é̄"],
-      ["Singular" ,"Person2" ,"Masc" ,"ti-dar-é̄-ya"],
-      ["Singular" ,"Person2" ,"Fem" ,"ti-dar-é̄-y"],
-      ["Singular" ,"Person3" ,"Masc" ,"i-dar-é̄"],
-      ["Singular" ,"Person3" ,"Fem" ,"ti-dar-é̄"],
-      ["Plural" ,"Person1" ,"Common" ,"ni-dar-é̄"],
-      ["Plural" ,"Person2" ,"Common" ,"tí-dar-n-é̄"],
-      ["Plural" ,"Person3" ,"Common" ,"i-dar-n-é̄"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-dir-OptativeNegative",
-    "note": "RE#264",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "dir",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Optative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"bā-dí̄r-ē"],
-      ["Singular" ,"Person2" ,"Masc" ,"bi-d-dí̄r-ē"],
-      ["Singular" ,"Person2" ,"Fem" ,"bi-d-dí̄r-ē"],
-      ["Singular" ,"Person3" ,"Masc" ,"bī-dí̄r-ē"],
-      ["Singular" ,"Person3" ,"Fem" ,"bi-d-dí̄r-ē"],
-      ["Plural" ,"Person1" ,"Common" ,"bi-n-dí̄r-ē"],
-      ["Plural" ,"Person2" ,"Common" ,"bi-d-dí̄r-ē"],
-      ["Plural" ,"Person3" ,"Common" ,"bi-dí̄r-n-ē"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-fedig-CompoundFuture3Affirmative",
-    "note": "RE#253 :: Future3 is formed with infinitive of main verb and conjugated aux haruw want",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "fedig",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Future3",
-      "specPdgms": "Compound"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"fedug a-hanrí̄û"],
-      ["Singular" ,"Person2" ,"Masc" ,"fedug hanrí̄w-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"fedug hanrí̄w-i"],
-      ["Singular" ,"Person3" ,"Masc" ,"fedug hanrí̄û"],
-      ["Singular" ,"Person3" ,"Fem" ,"fedug hanrí̄u"],
-      ["Plural" ,"Person1" ,"Common" ,"fedug ne-harú̄"],
-      ["Plural" ,"Person2" ,"Common" ,"fedug te-harú̄-na"],
-      ["Plural" ,"Person3" ,"Common" ,"fedug e-harú̄-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-fedig-CompoundFuture3Negative",
-    "note": "RE#253 :: Future3 is formed with infinitive of main verb and conjugated aux haruw want",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "fedig",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Future3",
-      "specPdgms": "Compound"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"fedug kā-harú̄"],
-      ["Singular" ,"Person2" ,"Masc" ,"fedug ki-t-háruw-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"fedug ki-t-háruw-i"],
-      ["Singular" ,"Person3" ,"Masc" ,"fedug kī-harú̄"],
-      ["Singular" ,"Person3" ,"Fem" ,"fedug ki-t-harú̄"],
-      ["Plural" ,"Person1" ,"Common" ,"fedug ki-n-harú̄"],
-      ["Plural" ,"Person2" ,"Common" ,"fedug ki-t-harú̄-na"],
-      ["Plural" ,"Person3" ,"Common" ,"fedug ki-harú̄-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-fedig-ImperativeAffirmative",
-    "note": "RE#255",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "fedig",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Imperative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person2" ,"Masc" ,"fédg-a!"],
-      ["Singular" ,"Person2" ,"Fem" ,"fédg-i!"],
-      ["Plural" ,"Person2" ,"Common" ,"fedíg-na!"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-fedig-ImperativeNegative",
-    "note": "RE#256",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "fedig",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Imperative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person2" ,"Masc" ,"bā-fadí̄g-a!"],
-      ["Singular" ,"Person2" ,"Fem" ,"bī-fadí̄g-i!"],
-      ["Plural" ,"Person2" ,"Common" ,"bā-fadí̄g-na!"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-fedig-JussiveAffirmative",
-    "note": "RE#257",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "fedig",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Jussive"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"fedg-at-é̄ni"],
-      ["Singular" ,"Person2" ,"Masc" ,"fédg-at-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"fédg-at-i"],
-      ["Singular" ,"Person3" ,"Masc" ,"ba-‘í̄-fdeg"],
-      ["Singular" ,"Person3" ,"Fem" ,"ba-tí̄-fdeg"],
-      ["Plural" ,"Person1" ,"Common" ,"fedg-at-ēneé̄y"],
-      ["Plural" ,"Person2" ,"Common" ,"fedg-át-na"],
-      ["Plural" ,"Person3" ,"Common" ,"ba-‘ī-fdíg-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-fedig-JussiveNegative",
-    "note": "RE#260",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "fedig",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Jussive"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Masc" ,"bā-fadí̄g-u"],
-      ["Singular" ,"Person1" ,"Fem" ,"bā-fadí̄g-tu"],
-      ["Singular" ,"Person2" ,"Masc" ,"bā-fadíḡ-wa"],
-      ["Singular" ,"Person2" ,"Fem" ,"bā-fadí̄g-twi"],
-      ["Singular" ,"Person3" ,"Masc" ,"bā-fadí̄g-u"],
-      ["Singular" ,"Person3" ,"Fem" ,"bā-fadí̄g-tu"],
-      ["Plural" ,"Person1" ,"Masc" ,"bā-fadīg-á-b-a"],
-      ["Plural" ,"Person1" ,"Fem" ,"ba-fadīg-á-t-a"],
-      ["Plural" ,"Person2" ,"Masc" ,"bā-fadigá̄b-āna"],
-      ["Plural" ,"Person2" ,"Fem" ,"bā-fadīgát-āna"],
-      ["Plural" ,"Person3" ,"Masc" ,"bā-fadīg-á̄-b-a"],
-      ["Plural" ,"Person3" ,"Fem" ,"bā-fadīg-á̄-t-a"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-fedig-OptativeAffirmative",
-    "note": "RE#263",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "fedig",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Optative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"i-fdeg-é̄"],
-      ["Singular" ,"Person2" ,"Masc" ,"ti-fdeg-é̄-ya"],
-      ["Singular" ,"Person2" ,"Fem" ,"ti-fdeg-é̄-y"],
-      ["Singular" ,"Person3" ,"Masc" ,"i-fdeg-é̄"],
-      ["Singular" ,"Person3" ,"Fem" ,"ti-fdeg-é̄"],
-      ["Plural" ,"Person1" ,"Common" ,"ni-fdeg-é̄"],
-      ["Plural" ,"Person2" ,"Common" ,"ti-fdeg-n-é̄"],
-      ["Plural" ,"Person3" ,"Common" ,"i-fdeg-n-é̄"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-fedig-OptativeNegative",
-    "note": "RE#264",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "fedig",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Optative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"bā-fadí̄g-ē"],
-      ["Singular" ,"Person2" ,"Masc" ,"bi-t-fadí̄g-ē"],
-      ["Singular" ,"Person2" ,"Fem" ,"bi-t-fadí̄g-ē"],
-      ["Singular" ,"Person3" ,"Masc" ,"bī-fadí̄g-ē"],
-      ["Singular" ,"Person3" ,"Fem" ,"bi-t-fadí̄g-ē"],
-      ["Plural" ,"Person1" ,"Common" ,"bi-n-fadí̄g-ē"],
-      ["Plural" ,"Person2" ,"Common" ,"bi-t-fadí̄g-n-ē"],
-      ["Plural" ,"Person3" ,"Common" ,"bī-fadí̄g-n-ē"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-har-PresentAffirmative",
-    "note": "RE#253 :: Used as aux in Future3",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "har",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Present"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"a-hanrí̄û"],
-      ["Singular" ,"Person2" ,"Masc" ,"hanrí̄w-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"hanrí̄w-i"],
-      ["Singular" ,"Person3" ,"Masc" ,"hanrí̄û"],
-      ["Singular" ,"Person3" ,"Fem" ,"hanrí̄u"],
-      ["Plural" ,"Person1" ,"Common" ,"ne-harú̄"],
-      ["Plural" ,"Person2" ,"Common" ,"te-harú̄-na"],
-      ["Plural" ,"Person3" ,"Common" ,"e-harú̄-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-har-PresentNegative",
-    "note": "RE#253 :: Used as aux in Future3",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "har",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Present"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"kā-harú̄"],
-      ["Singular" ,"Person2" ,"Masc" ,"ki-t-háruw-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"ki-t-háruw-i"],
-      ["Singular" ,"Person3" ,"Masc" ,"kī-harú̄"],
-      ["Singular" ,"Person3" ,"Fem" ,"ki-t-harú̄"],
-      ["Plural" ,"Person1" ,"Common" ,"ki-n-harú̄"],
-      ["Plural" ,"Person2" ,"Common" ,"ki-t-harú̄-na"],
-      ["Plural" ,"Person3" ,"Common" ,"ki-harú̄-na"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-harid-ImperativeAffirmative",
-    "note": "RE#255",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "harid",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Imperative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person2" ,"Masc" ,"hæård-a!"],
-      ["Singular" ,"Person2" ,"Fem" ,"hard-i!"],
-      ["Plural" ,"Person2" ,"Common" ,"haríd-na!"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-harid-ImperativeNegative",
-    "note": "RE#256",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "harid",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Imperative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person2" ,"Masc" ,"bā-harí̄d-a!"],
-      ["Singular" ,"Person2" ,"Fem" ,"bī-harí̄d-i!"],
-      ["Plural" ,"Person2" ,"Common" ,"bā-harí̄d-na!"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-kehan-ImperativeAffirmative",
-    "note": "RE#255",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "kehan",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Imperative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person2" ,"Masc" ,"kehán-a!"],
-      ["Singular" ,"Person2" ,"Fem" ,"kehán-i!"],
-      ["Plural" ,"Person2" ,"Common" ,"kehán-na!"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-kehan-ImperativeNegative",
-    "note": "RE#256",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "kehan",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Imperative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person2" ,"Masc" ,"bā-kehán-a!"],
-      ["Singular" ,"Person2" ,"Fem" ,"bī-kahán-i!"],
-      ["Plural" ,"Person2" ,"Common" ,"bā-kehán-na!"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-kiri-JussiveNegative",
-    "note": "RE#260",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "kiri",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Jussive"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Masc" ,"bā-karí̄-b-u"],
-      ["Singular" ,"Person1" ,"Fem" ,"bā-karí̄-t-u"],
-      ["Singular" ,"Person2" ,"Masc" ,"bā-karí̄-b-ua"],
-      ["Singular" ,"Person2" ,"Fem" ,"ba-karí̄-t-wi"],
-      ["Singular" ,"Person3" ,"Masc" ,"bā-karí̄-b-u"],
-      ["Singular" ,"Person3" ,"Fem" ,"bā-karí̄-t-u"],
-      ["Plural" ,"Person1" ,"Masc" ,"bā-karí̄-b-a"],
-      ["Plural" ,"Person1" ,"Fem" ,"bā-karí-t-a"],
-      ["Plural" ,"Person2" ,"Masc" ,"bā-karí-b-āna"],
-      ["Plural" ,"Person2" ,"Fem" ,"bā-karí-t-āna"],
-      ["Plural" ,"Person3" ,"Masc" ,"bā-karí̄-b-a"],
-      ["Plural" ,"Person3" ,"Fem" ,"bā-karī-t-a"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-kiri-OptativeNegative",
-    "note": "RE#264",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "kiri",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Optative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"bā-kary-é̄"],
-      ["Singular" ,"Person2" ,"Masc" ,"bi-t-kary-é̄"],
-      ["Singular" ,"Person2" ,"Fem" ,"bi-t-kary-é"],
-      ["Singular" ,"Person3" ,"Masc" ,"bī-kary-é̄"],
-      ["Singular" ,"Person3" ,"Fem" ,"bi-t-kary-é"],
-      ["Plural" ,"Person1" ,"Common" ,"bi-n-kary-é"],
-      ["Plural" ,"Person2" ,"Common" ,"bi-t-karī-n-ē"],
-      ["Plural" ,"Person3" ,"Common" ,"bī-karí̄-n-ē"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-seni-ImperativeAffirmative",
-    "note": "RE#255",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "seni",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Imperative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person2" ,"Masc" ,"sény-a!"],
-      ["Singular" ,"Person2" ,"Fem" ,"sé̄ni!"],
-      ["Plural" ,"Person2" ,"Common" ,"sení̄-na!"]
-    ]
-  },
-  {
-    "label": "bre-VerbPrefix-seni-ImperativeNegative",
-    "note": "RE#256",
-    "common": {
-      "conjClass": "Prefix",
-      "lexeme": "seni",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Imperative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person2" ,"Masc" ,"bā-sény-a!"],
-      ["Singular" ,"Person2" ,"Fem" ,"bi-seni!"],
-      ["Plural" ,"Person2" ,"Common" ,"bā-sení̄-na!"]
+      ["Singular" ,"Person1" ,"Common" ,"ū-mé̄k aní̄-b-u"],
+      ["Singular" ,"Person2" ,"Masc" ,"ū-mé̄k baryó̄k-u"],
+      ["Singular" ,"Person2" ,"Fem" ,"ū-mé̄k batyó̄k-u"],
+      ["Singular" ,"Person3" ,"Masc" ,"ū-mé̄k baryó̄s-u"],
+      ["Singular" ,"Person3" ,"Fem" ,"ū-mé̄k batyó̄s-u"],
+      ["Plural" ,"Person1" ,"Common" ,"ū-mé̄k hanné̄-b-u"],
+      ["Plural" ,"Person2" ,"Masc" ,"ū-mé̄k bar̄yó̄knā-yu"],
+      ["Plural" ,"Person2" ,"Fem" ,"ū-mé̄k batēyó̄knā-yu"],
+      ["Plural" ,"Person3" ,"Masc" ,"ū-mé̄k barēyó̄snā-yu"],
+      ["Plural" ,"Person3" ,"Fem" ,"ū-mé̄k batēyó̄snā-yu"]
     ]
   },
   {
@@ -2058,13 +1573,14 @@
       ["Plural" ,"Person3" ,"Common" ,"e-t-rí̄m-na"]
     ]
   },
+
   {
     "label": "bre-VerbPrefixCC-t_a-BPresentAffirmative",
     "note": "RE#235",
     "common": {
       "conjClass": "Prefix",
       "derivedStem": "B",
-      "lexeme": "t_a",
+      "lexeme": "ṭa?",
       "polarity": "Affirmative",
       "pos": "Verb",
       "rootClass": "CC",
@@ -2072,14 +1588,14 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"a-n-tí̄’"],
-      ["Singular" ,"Person2" ,"Masc" ,"té-n-tī’-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"té-n-tī’-i"],
-      ["Singular" ,"Person3" ,"Masc" ,"e-n-tí̄’"],
-      ["Singular" ,"Person3" ,"Fem" ,"te-n-tí̄’"],
-      ["Plural" ,"Person1" ,"Common" ,"né̄-ta’ ~ ne-té̄"],
-      ["Plural" ,"Person2" ,"Common" ,"tē-tá’-na ~ tē-té̄’na"],
-      ["Plural" ,"Person3" ,"Common" ,"ē-tá’-na ~ ē-té̄’na"]
+      ["Singular" ,"Person1" ,"Common" ,"a-ṇ-ṭí̄’"],
+      ["Singular" ,"Person2" ,"Masc" ,"té-ṇ-tī’-a"],
+      ["Singular" ,"Person2" ,"Fem" ,"té-ṇ-tī’-i"],
+      ["Singular" ,"Person3" ,"Masc" ,"e-ṇ-ṭí̄’"],
+      ["Singular" ,"Person3" ,"Fem" ,"te-n̠-ṭí̄’"],
+      ["Plural" ,"Person1" ,"Common" ,"né̄-ṭa’ ~ ne-ṭé̄"],
+      ["Plural" ,"Person2" ,"Common" ,"tē-ṭá’-na ~ tē-ṭé̄’na"],
+      ["Plural" ,"Person3" ,"Common" ,"ē-ṭá’-na ~ ē-ṭé̄’na"]
     ]
   },
   {
@@ -2088,7 +1604,7 @@
     "common": {
       "conjClass": "Prefix",
       "derivedStem": "BInt",
-      "lexeme": "tʔab",
+      "lexeme":  "ṭāb",
       "polarity": "Affirmative",
       "pos": "Verb",
       "rootClass": "CC",
@@ -2096,14 +1612,14 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"é̄-tbī"],
-      ["Singular" ,"Person2" ,"Masc" ,"té̄-tbī-ya"],
-      ["Singular" ,"Person2" ,"Fem" ,"té̄-tbī-ya"],
-      ["Singular" ,"Person3" ,"Masc" ,"é̄-tbī"],
-      ["Singular" ,"Person3" ,"Fem" ,"té̄-tbī"],
-      ["Plural" ,"Person1" ,"Common" ,"né̄-tbī"],
-      ["Plural" ,"Person2" ,"Common" ,"t-ētbí̄-na"],
-      ["Plural" ,"Person3" ,"Common" ,"ē-tbí̄-na"]
+      ["Singular" ,"Person1" ,"Common" ,"é̄-ṭbī"],
+      ["Singular" ,"Person2" ,"Masc" ,"té̄-ṭbī-ya"],
+      ["Singular" ,"Person2" ,"Fem" ,"té̄-ṭbī-ya"],
+      ["Singular" ,"Person3" ,"Masc" ,"é̄-ṭbī"],
+      ["Singular" ,"Person3" ,"Fem" ,"té̄-ṭbī"],
+      ["Plural" ,"Person1" ,"Common" ,"né̄-ṭbī"],
+      ["Plural" ,"Person2" ,"Common" ,"t-ēṭbí̄-na"],
+      ["Plural" ,"Person3" ,"Common" ,"ē-ṭbí̄-na"]
     ]
   },
   {
@@ -2112,7 +1628,7 @@
     "common": {
       "conjClass": "Prefix",
       "derivedStem": "S",
-      "lexeme": "tʔaʔ",
+      "lexeme": "ṭa?",
       "polarity": "Affirmative",
       "pos": "Verb",
       "rootClass": "CC",
@@ -2120,14 +1636,14 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"a-sō-tí̄’"],
-      ["Singular" ,"Person2" ,"Masc" ,"te-só̄-tī’-a"],
-      ["Singular" ,"Person2" ,"Fem" ,"te-só̄-tī’-i"],
-      ["Singular" ,"Person3" ,"Masc" ,"e-sō-tí̄’"],
-      ["Singular" ,"Person3" ,"Fem" ,"te-sō-tí̄’"],
-      ["Plural" ,"Person1" ,"Common" ,"ne-sō-tí̄’"],
-      ["Plural" ,"Person2" ,"Common" ,"te-sō-tí̄’na"],
-      ["Plural" ,"Person3" ,"Common" ,"e-sō’tí̄’-na"]
+      ["Singular" ,"Person1" ,"Common" ,"a-sō-ṭí̄’"],
+      ["Singular" ,"Person2" ,"Masc" ,"te-só̄-ṭī’-a"],
+      ["Singular" ,"Person2" ,"Fem" ,"te-só̄-ṭī’-i"],
+      ["Singular" ,"Person3" ,"Masc" ,"e-sō-ṭí̄’"],
+      ["Singular" ,"Person3" ,"Fem" ,"te-sō-ṭí̄’"],
+      ["Plural" ,"Person1" ,"Common" ,"ne-sō-ṭí̄’"],
+      ["Plural" ,"Person2" ,"Common" ,"te-sō-ṭí̄’na"],
+      ["Plural" ,"Person3" ,"Common" ,"e-sōí’̄’-na"]
     ]
   },
   {
@@ -2208,7 +1724,7 @@
     "common": {
       "conjClass": "Prefix",
       "derivedStem": "BInt",
-      "lexeme": "beʔān",
+      "lexeme": "beʔan",
       "polarity": "Affirmative",
       "pos": "Verb",
       "rootClass": "CCC",
@@ -2471,7 +1987,7 @@
     "common": {
       "conjClass": "Prefix",
       "derivedStem": "T",
-      "lexeme": "siʔ",
+      "lexeme": "sāʔ",
       "polarity": "Affirmative",
       "pos": "Verb",
       "rootClass": "CCC",
@@ -3148,7 +2664,7 @@
     ]
   },
   {
-    "label": "bre-Verbmorph-DERVSTEMAORIST-PrefixPluperfectAffirmative",
+    "label": "bre-morphVerb-DERVSTEMAORISTPrefixPluperfectAffirmative",
     "note": "RE#231",
     "common": {
       "conjClass": "Prefix",
@@ -3207,7 +2723,7 @@
     ]
   },
   {
-    "label": "bre-Verbmorph-DERVSTEMCAUS-PrefixS",
+    "label": "bre-morphVerb-DERVSTEMCAUSPrefixS",
     "note": "RE#203-208",
     "common": {
       "conjClass": "Prefix",
@@ -3249,7 +2765,7 @@
     ]
   },
   {
-    "label": "bre-Verbmorph-DERVSTEMCOLL-PrefixM",
+    "label": "bre-morphVerb-DERVSTEMCOLLPrefixM",
     "note": "RE#217-218 :: coop- called by Reinisch ʔmitwirkungs- oder socialstammʔ; special use of M",
     "common": {
       "conjClass": "Prefix",
@@ -3276,7 +2792,7 @@
     ]
   },
   {
-    "label": "bre-Verbmorph-DERVSTEMPASS-PrefixM",
+    "label": "bre-morphVerb-DERVSTEMPASSPrefixM",
     "note": "RE#209-213",
     "common": {
       "conjClass": "Prefix",
@@ -3311,7 +2827,7 @@
     ]
   },
   {
-    "label": "bre-Verbmorph-DERVSTEMRECIP-PrefixReciprocal",
+    "label": "bre-morphVerb-DERVSTEMRECIPPrefixReciprocal",
     "note": "RE#219; m+redup.verb",
     "common": {
       "conjClass": "Prefix",
@@ -3332,11 +2848,11 @@
       ["ram" ,"einander folgen" ,"mō-rerām"],
       ["rib" ,"einander hassen" ,"mō-rerāb"],
       ["semit" ,"einander beschmiren" ,"m-sesmāt"],
-      ["tab" ,"einander prugeln" ,"mō-tetāb"]
+      ["ṭāb" ,"einander prugeln" ,"mō-tetāb"]
     ]
   },
   {
-    "label": "bre-Verbmorph-DERVSTEMREFL-PrefixReflexive",
+    "label": "bre-morphVerb-DERVSTEMREFLPrefixReflexive",
     "note": "RE#214-216",
     "common": {
       "conjClass": "Prefix",
@@ -3371,14 +2887,14 @@
       ["nau" ,"no base form (#215), sich entberungen unterziehen" ,"nāu"],
       ["negil" ,"Common, sich auftun" ,"negāl"],
       ["ram" ,"no base form (#215), sich anschliessen jemandem" ,"rām"],
-      ["saH" ,"no base form (#215), sich setzen" ,"sā’"],
+      ["sāʔ" ,"no base form (#215), sich setzen" ,"sā’"],
       ["sebir" ,"no base form (#215), sich fluchten" ,"sebār"],
       ["semit" ,"Common, sich beschmiren" ,"semāt"],
       ["semit" ,"caus. of refl. #216, sich beschmiren lassen" ,"as-semāt"]
     ]
   },
   {
-    "label": "bre-Verbmorph-DERVSTEMSUFF-Suffix",
+    "label": "bre-morphVerb-DERVSTEMSUFFSuffix",
     "note": "RE#325 :: [MAKE BETTER SYSTEMATIZATION OF R'S ANALYSIS OF DERIVED STEMS.] In Reinisch,causPass is termed causatives reflexive;some instances of passCaus are termed reciprocum;passCaus2 is causatives reciprocum.",
     "common": {
       "conjClass": "Suffix",
@@ -3416,7 +2932,7 @@
     ]
   },
   {
-    "label": "bre-Verbmorph-Finite_Partial-PrefixPluperfectAffirmative",
+    "label": "bre-morphVerb-Finite_PartialPrefixPluperfectAffirmative",
     "note": "RE#232 :: break up into mono-lex pdgms?",
     "common": {
       "conjClass": "Prefix",
@@ -3445,7 +2961,7 @@
     ]
   },
   {
-    "label": "bre-Verbmorph-Partial-Suffix-dur-Future1Affirmative",
+    "label": "bre-morphVerb-PartialSuffix-dur-Future1Affirmative",
     "note": "RE#332",
     "common": {
       "conjClass": "Suffix",
@@ -3463,7 +2979,7 @@
     ]
   },
   {
-    "label": "bre-Verbmorph-Partial-Suffix-dur-PerfectDurAffirmative",
+    "label": "bre-morphVerb-PartialSuffix-dur-PerfectDurAffirmative",
     "note": "RE#328 :: also with fay",
     "common": {
       "conjClass": "Suffix",
@@ -3481,7 +2997,7 @@
     ]
   },
   {
-    "label": "bre-Verbmorph-Partial-Suffix-dur-PerfectDurNegative",
+    "label": "bre-morphVerb-PartialSuffix-dur-PerfectDurNegative",
     "note": "RE#329",
     "common": {
       "conjClass": "Suffix",
@@ -3499,7 +3015,7 @@
     ]
   },
   {
-    "label": "bre-Verbmorph-Partial-Suffix-dur-PresentDurAffirmative",
+    "label": "bre-morphVerb-PartialSuffix-dur-PresentDurAffirmative",
     "note": "RE#328-329 :: durative present and perfect, pos and neg formed with perfect of main verb and pres-perf, pos-neg of hay or fay",
     "common": {
       "conjClass": "Suffix",
@@ -3517,7 +3033,7 @@
     ]
   },
   {
-    "label": "bre-Verbmorph-PrefVersusSuff--dir-",
+    "label": "bre-morphVerb-PrefVersusSuff-dir-",
     "note": "RE#308",
     "common": {
       "lexeme": "dir",
