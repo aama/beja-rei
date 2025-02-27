@@ -3060,8 +3060,8 @@
       ["Suffix" ,"Present" ,"Singular" ,"Person1" ,"Common" ,"dír-a-ni"],
       ["Suffix" ,"Present" ,"Singular" ,"Person2" ,"Masc" ,"dir-te-níy-a"],
       ["Suffix" ,"Present" ,"Singular" ,"Person2" ,"Fem" ,"dir-te-ní̄"],
-      ["Suffix" ,"Present" ,"Singular" ,"Person3" ,"Masc" ,"dir-í̄-ni"],
       ["Suffix" ,"Present" ,"Singular" ,"Person3" ,"Fem" ,"dir-tí-ni"]
     ]
+      ["Suffix" ,"Present" ,"Singular" ,"Person3" ,"Masc" ,"dir-í̄-ni"],
   }
 ]}
